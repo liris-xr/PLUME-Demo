@@ -1,0 +1,1762 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d44972bad5c4f8c9d17e95f798abd2f, type: 3}
+  m_Name: AssetsGuidRegistry
+  m_EditorClassIdentifier: 
+  registry:
+    entries:
+    - object: {fileID: 4300000, guid: 442120c1ba2d6ac4a9caa291dd678060, type: 3}
+      guid: 442120c1ba2d6ac4a9caa291dd678060
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/FREE
+        Food Pack/Mesh/Rice_Bowl.fbx:Rice_Bowl
+    - object: {fileID: 4300000, guid: aa28c890d9e8b5e449d701805e420020, type: 3}
+      guid: aa28c890d9e8b5e449d701805e420020
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/BedroomSofa.fbx:BedroomSofa
+    - object: {fileID: 2800000, guid: eb447288676d0ef4e8428f44adebc551, type: 3}
+      guid: eb447288676d0ef4e8428f44adebc551
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/LowPolyFoodLite/Textures/LowPolyFoodLiteTexture_01.png:LowPolyFoodLiteTexture_01
+    - object: {fileID: 4300000, guid: de7b8a9948f1666449e3f75a1abb6f69, type: 3}
+      guid: de7b8a9948f1666449e3f75a1abb6f69
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/FREE
+        Food Pack/Mesh/Croissant.fbx:Croissant
+    - object: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      guid: 5293c535b32e44519e53b7fb0e8aad0b
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Standard
+    - object: {fileID: 6, guid: 0000000000000000f000000000000000, type: 0}
+      guid: 1eead166b8ff414f8169499ca894611f
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Legacy
+        Shaders/VertexLit
+    - object: {fileID: -8429650256770907399, guid: be3083a5f26d4e859d594ecbe632f87e, type: 3}
+      guid: be3083a5f26d4e859d594ecbe632f87e
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/Models/XRControllerLeft.fbx:Button_Home
+    - object: {fileID: 22788929071467060, guid: be3083a5f26d4e859d594ecbe632f87e, type: 3}
+      guid: be3083a5f26d4e859d594ecbe632f87e
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/Models/XRControllerLeft.fbx:Controller_Base
+    - object: {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+      guid: a9ca45a49c1b46c68aec01ab82d238bd
+      assetBundlePath: Builtin:UnityEngine.Material, UnityEngine.CoreModule:Resources/unity_builtin_extra:Default-Line
+    - object: {fileID: 7320373469446664815, guid: 1e563b9fd9b1e414b9c8323cf0f2c89d, type: 3}
+      guid: 1e563b9fd9b1e414b9c8323cf0f2c89d
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/LowPolyFoodLite/Models/Cupcake.fbx:Cupcake
+    - object: {fileID: 207, guid: 0000000000000000f000000000000000, type: 0}
+      guid: dba222a05e0441ab906bfe81591fe8b7
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Legacy
+        Shaders/Particles/Alpha Blended Premultiply
+    - object: {fileID: 10490, guid: 0000000000000000f000000000000000, type: 0}
+      guid: e8281b2e2fd140e38133b7991df8b039
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Hidden/Nature/Terrain/Utilities
+    - object: {fileID: 10501, guid: 0000000000000000f000000000000000, type: 0}
+      guid: f88d22a85efb45309cb24d04a6de126d
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Hidden/TerrainEngine/Details/WavingDoublePass
+    - object: {fileID: 10502, guid: 0000000000000000f000000000000000, type: 0}
+      guid: 57150d5f26be439d8d59a2dc2d1da6b3
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Hidden/TerrainEngine/Details/BillboardWavingDoublePass
+    - object: {fileID: 10507, guid: 0000000000000000f000000000000000, type: 0}
+      guid: 944384f194ce43099a6a4c860e76b117
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Hidden/TerrainEngine/BillboardTree
+    - object: {fileID: 10508, guid: 0000000000000000f000000000000000, type: 0}
+      guid: 464e0972c73a44379b6237ded0b95111
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Hidden/Nature/Tree
+        Soft Occlusion Bark Rendertex
+    - object: {fileID: 10510, guid: 0000000000000000f000000000000000, type: 0}
+      guid: 12a03c71037d4a4588b663df13d7abf1
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Hidden/Nature/Tree
+        Soft Occlusion Leaves Rendertex
+    - object: {fileID: 10625, guid: 0000000000000000f000000000000000, type: 0}
+      guid: e31285f8fb3d4e6aaed8596bcf255f22
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Hidden/TerrainEngine/Splatmap/Standard-Base
+    - object: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
+      guid: 5e852778ed7c4b339fdee0306925987a
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Legacy
+        Shaders/Diffuse
+    - object: {fileID: 10626, guid: 0000000000000000f000000000000000, type: 0}
+      guid: 0c95b2af7a594ac28620fbc8f31f80c4
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Hidden/TerrainEngine/Splatmap/Standard-BaseGen
+    - object: {fileID: 10623, guid: 0000000000000000f000000000000000, type: 0}
+      guid: da8e815f1bf1491dad31b35ba64bfd9c
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Nature/Terrain/Standard
+    - object: {fileID: 10505, guid: 0000000000000000f000000000000000, type: 0}
+      guid: fdc73936d24a424baf8a67b47ba2ddf4
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Nature/Terrain/Diffuse
+    - object: {fileID: 4300044, guid: 9bde7338ed7c8a141b7a2e71c75febbe, type: 3}
+      guid: 9bde7338ed7c8a141b7a2e71c75febbe
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Meshes/Decorative plants.obj:Triangle_pot_collider
+    - object: {fileID: 10503, guid: 0000000000000000f000000000000000, type: 0}
+      guid: 30ad177f6f3343d8adc8065c05c5df77
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Hidden/TerrainEngine/Splatmap/Diffuse-AddPass
+    - object: {fileID: 10504, guid: 0000000000000000f000000000000000, type: 0}
+      guid: 54144926e72f46c9ae0872ed0198d42f
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Hidden/TerrainEngine/Splatmap/Diffuse-Base
+    - object: {fileID: 10506, guid: 0000000000000000f000000000000000, type: 0}
+      guid: 46caf223b077413eb0be63c200ac2d44
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Hidden/TerrainEngine/Splatmap/Diffuse-BaseGen
+    - object: {fileID: 10500, guid: 0000000000000000f000000000000000, type: 0}
+      guid: 82d556c1737f4db5a0c36c7a1c5bde56
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Hidden/TerrainEngine/Details/Vertexlit
+    - object: {fileID: 8784586669194685158, guid: 37b9e3ececa8e40bdb666179779b2ba2, type: 3}
+      guid: 37b9e3ececa8e40bdb666179779b2ba2
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Models/FreeStove.fbx:FreeStove_Door
+    - object: {fileID: 10624, guid: 0000000000000000f000000000000000, type: 0}
+      guid: 5c72f97d36f04997b6accdeb9ba8957c
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Hidden/TerrainEngine/Splatmap/Standard-AddPass
+    - object: {fileID: 4300000, guid: 0135e90e045c5f84f9204d5886f6e019, type: 2}
+      guid: 0135e90e045c5f84f9204d5886f6e019
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/_SNAPS_PrototypingAssets/APAC_Residential/Prefabs/Props/Table/Meshes/Table_A_snaps004.asset:Table_A_snaps004
+    - object: {fileID: 18001, guid: 0000000000000000f000000000000000, type: 0}
+      guid: c3acd384253a4c05a17a743043b2246f
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Hidden/TerrainEngine/HeightBlitCopy
+    - object: {fileID: 8069720770530618770, guid: 51857641a0e87f64aba6883249b5febd, type: 3}
+      guid: 51857641a0e87f64aba6883249b5febd
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/DoorPanel.fbx:wire_224086086
+    - object: {fileID: 4300000, guid: 6d05be1b78e41a948b8d50bee67bce65, type: 3}
+      guid: 6d05be1b78e41a948b8d50bee67bce65
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/FREE
+        Food Pack/Mesh/Banana.fbx:Banana
+    - object: {fileID: 2100000, guid: a522fbc5ca511714aa8805fbb68e8e18, type: 2}
+      guid: a522fbc5ca511714aa8805fbb68e8e18
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Fabric036_green.mat:Fabric036_green
+    - object: {fileID: 4300000, guid: d734e0f1e8152164f912667b484f1bb9, type: 3}
+      guid: d734e0f1e8152164f912667b484f1bb9
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/printer/printer.FBX:Box002
+    - object: {fileID: 3925787694318907522, guid: 37b9e3ececa8e40bdb666179779b2ba2, type: 3}
+      guid: 37b9e3ececa8e40bdb666179779b2ba2
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Models/FreeStove.fbx:FreeStove
+    - object: {fileID: 2100000, guid: 8607bea6efc738c45b61e96c74021542, type: 2}
+      guid: 8607bea6efc738c45b61e96c74021542
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Materials/Shrub Mat.mat:Shrub Mat
+    - object: {fileID: 4300000, guid: ea0786d988f235b45a488bf2987c7f0a, type: 3}
+      guid: ea0786d988f235b45a488bf2987c7f0a
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/FREE
+        Food Pack/Mesh/Cheese_01.fbx:Cheese_01
+    - object: {fileID: 2800000, guid: 6f6c8443720e6480f923d95e2c99073d, type: 3}
+      guid: 6f6c8443720e6480f923d95e2c99073d
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet03_Material_AO.png:FreeCabinet03_Material_AO
+    - object: {fileID: 4300000, guid: 85947538a4a5a8d47883b4c8d78a9519, type: 2}
+      guid: 85947538a4a5a8d47883b4c8d78a9519
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/_SNAPS_PrototypingAssets/APAC_Residential/Prefabs/Props/Windows/Meshes/Windows_D_snaps004.asset:Windows_D_snaps004
+    - object: {fileID: 2800000, guid: a641de2da90b0444f8e2d9adda33e396, type: 3}
+      guid: a641de2da90b0444f8e2d9adda33e396
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Textures/Version01/FreeRefrigeratorMaterial_AO.png:FreeRefrigeratorMaterial_AO
+    - object: {fileID: 2800000, guid: b04788af13e75414d8eafa2cc9e52da4, type: 3}
+      guid: b04788af13e75414d8eafa2cc9e52da4
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Textures/Palm diffuse.tga:Palm diffuse
+    - object: {fileID: 2800000, guid: 79a2c6460121fde40801f461b2659854, type: 3}
+      guid: 79a2c6460121fde40801f461b2659854
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Paintings/Retro-future-80s.jpg:Retro-future-80s
+    - object: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+      guid: 4f0a1c4a3c6948dd8d7491b4b91f7931
+      assetBundlePath: Builtin:UnityEngine.Material, UnityEngine.CoreModule:Resources/unity_builtin_extra:Default-Material
+    - object: {fileID: 2800000, guid: cb2ff985c53554926997ff6c66d9f8a3, type: 3}
+      guid: cb2ff985c53554926997ff6c66d9f8a3
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Textures/Version01/FreeEquipment02Material_MetallicSmoothness.png:FreeEquipment02Material_MetallicSmoothness
+    - object: {fileID: 4300002, guid: 6683a92d5ef9b8449a238c88b8f49b2d, type: 3}
+      guid: 6683a92d5ef9b8449a238c88b8f49b2d
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/FREE
+        Food Pack/Mesh/Pepper.fbx:Pepper
+    - object: {fileID: 2100000, guid: 497e50a7d646547459a2fab04498785c, type: 2}
+      guid: 497e50a7d646547459a2fab04498785c
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/Materials/Secondary.mat:Secondary
+    - object: {fileID: 2100000, guid: bc2a01896b0634202aa60a2121ae0a9b, type: 2}
+      guid: bc2a01896b0634202aa60a2121ae0a9b
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Materials/Version01/FreeRefrigeratorMaterial.mat:FreeRefrigeratorMaterial
+    - object: {fileID: 2800000, guid: 21cb68c260e203444813c1ea5c1d7f36, type: 3}
+      guid: 21cb68c260e203444813c1ea5c1d7f36
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Tiles/Tiles_052/Tiles052_2K_Normal.jpg:Tiles052_2K_Normal
+    - object: {fileID: 4300000, guid: 6833b23575f2c924a8e7ac4c4a3f3993, type: 2}
+      guid: 6833b23575f2c924a8e7ac4c4a3f3993
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/_SNAPS_PrototypingAssets/APAC_Residential/Prefabs/Props/Windows/Meshes/Windows_A_snaps004.asset:Windows_A_snaps004
+    - object: {fileID: 2307464322626738743, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        RightHand Locomotion/Teleport Mode Cancel
+    - object: {fileID: 2800000, guid: 7d2463aeef6ef4fbca9dce01fae0856b, type: 3}
+      guid: 7d2463aeef6ef4fbca9dce01fae0856b
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet02_Material_Normal.png:FreeCabinet02_Material_Normal
+    - object: {fileID: 4300014, guid: 9bde7338ed7c8a141b7a2e71c75febbe, type: 3}
+      guid: 9bde7338ed7c8a141b7a2e71c75febbe
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Meshes/Decorative plants.obj:Cross_pot_collider
+    - object: {fileID: 2800000, guid: 7c7dd1f0698ca40e69ed529d91490707, type: 3}
+      guid: 7c7dd1f0698ca40e69ed529d91490707
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet01_Material_AO.png:FreeCabinet01_Material_AO
+    - object: {fileID: 10609, guid: 0000000000000000f000000000000000, type: 0}
+      guid: d2fda1e60e744ab6bc670cc2ec16f44e
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Hidden/Nature/Tree
+        Creator Normal Rendertex
+    - object: {fileID: -2907462421268956602, guid: dc43ee26c1f29c247b891f2220e7654a, type: 3}
+      guid: dc43ee26c1f29c247b891f2220e7654a
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Speaker.dae:low
+    - object: {fileID: 2800000, guid: e126503f2d2c71b41860becd3c3dd35a, type: 3}
+      guid: e126503f2d2c71b41860becd3c3dd35a
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/pc_desk/Textures/pc-desk_norm.png:pc-desk_norm
+    - object: {fileID: 4300000, guid: b865f6de382a76e48b139fcf07f3f22c, type: 2}
+      guid: b865f6de382a76e48b139fcf07f3f22c
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/_SNAPS_PrototypingAssets/APAC_Residential/Prefabs/Props/Windows/Meshes/Windows_Metal_Frame_01_snaps004.asset:Windows_Metal_Frame_01_snaps004
+    - object: {fileID: -5246272249935978634, guid: 0ce7e0f25153c1c4ab06af1f5f3cbdf6, type: 3}
+      guid: 0ce7e0f25153c1c4ab06af1f5f3cbdf6
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/closet.fbx:Group_001
+    - object: {fileID: 2800000, guid: 8ed2a69e63cba4a0f84c2ad2dcff1a8d, type: 3}
+      guid: 8ed2a69e63cba4a0f84c2ad2dcff1a8d
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet02_Material_MetallicSmoothness.png:FreeCabinet02_Material_MetallicSmoothness
+    - object: {fileID: 4300000, guid: 430156879fec00b4c8be6e44eab84172, type: 3}
+      guid: 430156879fec00b4c8be6e44eab84172
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/FREE
+        Food Pack/Mesh/Burger.fbx:Burger
+    - object: {fileID: 2100000, guid: d3f698d8d13edc2478d19e143b436434, type: 2}
+      guid: d3f698d8d13edc2478d19e143b436434
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/Terrain/Materials/Grass_C.asset:Grass_C
+    - object: {fileID: 3384114, guid: 19682540d8a014522a319b1cf788aee2, type: 3}
+      guid: 19682540d8a014522a319b1cf788aee2
+      assetBundlePath: Custom:UnityEngine.MeshFilter, UnityEngine.CoreModule:Assets/External/Darth_Artisan/Free_Trees/Prefabs/Fir_Tree.prefab:Fir_Tree
+    - object: {fileID: 4300000, guid: b3eeac06e2127d64a98cfe86b50eeda8, type: 3}
+      guid: b3eeac06e2127d64a98cfe86b50eeda8
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/FREE
+        Food Pack/Mesh/Tomato.fbx:Tomato
+    - object: {fileID: 192044, guid: 19682540d8a014522a319b1cf788aee2, type: 3}
+      guid: 19682540d8a014522a319b1cf788aee2
+      assetBundlePath: Custom:UnityEngine.GameObject, UnityEngine.CoreModule:Assets/External/Darth_Artisan/Free_Trees/Prefabs/Fir_Tree.prefab:Fir_Tree
+    - object: {fileID: 2800000, guid: 875c9fe8f6eaa1446bf1a12d96e7cd4f, type: 3}
+      guid: 875c9fe8f6eaa1446bf1a12d96e7cd4f
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/bed2/bed2.jpg:bed2
+    - object: {fileID: 4300000, guid: 901cc454df4ad724a93940db09be892e, type: 3}
+      guid: 901cc454df4ad724a93940db09be892e
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/FREE
+        Food Pack/Mesh/Sushi.fbx:Sushi
+    - object: {fileID: 1153457135615932484, guid: 7c343d07e67285f4d8007563c487943f, type: 3}
+      guid: 7c343d07e67285f4d8007563c487943f
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/pc_desk/Model/pc_desk.fbx:PC_desk_bake
+    - object: {fileID: 4300000, guid: 15afb6df1db838d409d503b01fb48944, type: 2}
+      guid: 15afb6df1db838d409d503b01fb48944
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Terrain/Models/Grass_D.asset:Grass_D
+    - object: {fileID: -6582467501987340073, guid: 0d30ee00960d341658b4d224edd6c6f2, type: 3}
+      guid: 0d30ee00960d341658b4d224edd6c6f2
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Models/FreeCabinet02.fbx:FreeCabinet02
+    - object: {fileID: 4300000, guid: 7215b57939ceb4461b4bf22e3245f486, type: 3}
+      guid: 7215b57939ceb4461b4bf22e3245f486
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/Standard/Bed_COL.fbx:Bed_COL
+    - object: {fileID: 18000, guid: 0000000000000000f000000000000000, type: 0}
+      guid: 32b1ec44648045d0b790227b6b6e4b04
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Hidden/TerrainEngine/PaintHeight
+    - object: {fileID: -8198699208435500284, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        RightHand Locomotion/Move
+    - object: {fileID: 4300000, guid: 6c7dbfd367d792747aa39a4afc52eb72, type: 3}
+      guid: 6c7dbfd367d792747aa39a4afc52eb72
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/FREE
+        Food Pack/Mesh/Wine_Bottle.fbx:Wine_Bottle
+    - object: {fileID: 9000000, guid: df1666880554cd446af9d788cc7a7a19, type: 3}
+      guid: df1666880554cd446af9d788cc7a7a19
+      assetBundlePath: Custom:UnityEngine.Avatar, UnityEngine.AnimationModule:Assets/External/bed2/bed2.FBX:bed2Avatar
+    - object: {fileID: 4300010, guid: 766f744b037571640a4eeca80f2ccf48, type: 3}
+      guid: 766f744b037571640a4eeca80f2ccf48
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/ATLAS/Customizable
+        Kitchen Pack/Models/Sink_Double.fbx:Sink002:Counter_Base
+    - object: {fileID: 8027715255928471207, guid: 4dfd50a1f648e984f8188be70774f281, type: 3}
+      guid: 4dfd50a1f648e984f8188be70774f281
+      assetBundlePath: Custom:UnityEngine.MeshFilter, UnityEngine.CoreModule:Assets/Terrain/Prefabs/Grass_D.prefab:Grass_D
+    - object: {fileID: 2800000, guid: 46978bd905356304f8803d58707aafe1, type: 3}
+      guid: 46978bd905356304f8803d58707aafe1
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Floor/Plastic_006/Plastic006_2K_Roughness.jpg:Plastic006_2K_Roughness
+    - object: {fileID: 18003, guid: 0000000000000000f000000000000000, type: 0}
+      guid: b377eda8d5db437c853d3d8cd3042151
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Hidden/TerrainEngine/TerrainLayerUtils
+    - object: {fileID: 2800000, guid: 255283d354122406ebf8159c5ea35b7d, type: 3}
+      guid: 255283d354122406ebf8159c5ea35b7d
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Darth_Artisan/Free_Trees/Textures/tree_diffuse.png:tree_diffuse
+    - object: {fileID: 18002, guid: 0000000000000000f000000000000000, type: 0}
+      guid: 03a255d7f8224d0a95fe0c6f0c9b2bf5
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Hidden/TerrainEngine/GenerateNormalmap
+    - object: {fileID: 10513, guid: 0000000000000000f000000000000000, type: 0}
+      guid: e80c17c32a9f4eb495c453883c6b6eb0
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Hidden/TerrainEngine/CameraFacingBillboardTree
+    - object: {fileID: 1338665205495081925, guid: 663f45615243d4c479d2e3571ab42ba9, type: 2}
+      guid: 663f45615243d4c479d2e3571ab42ba9
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/Terrain/Outdoor.asset:SplatAlpha
+        0
+    - object: {fileID: 10608, guid: 0000000000000000f000000000000000, type: 0}
+      guid: 9f9f4f8d736744f693bfcf39cb8515a0
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Hidden/Nature/Tree
+        Creator Albedo Rendertex
+    - object: {fileID: 4300000, guid: 66aad8a0ff522c94ab73dbd833dc4a43, type: 2}
+      guid: 66aad8a0ff522c94ab73dbd833dc4a43
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/_SNAPS_PrototypingAssets/APAC_Residential/Prefabs/Props/Windows/Meshes/Windows_C_snaps004.asset:Windows_C_snaps004
+    - object: {fileID: 5561349426305759274, guid: 8aac9095acdad34468b2d0b33020dc48, type: 3}
+      guid: 8aac9095acdad34468b2d0b33020dc48
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/stuff.fbx:lambert1
+    - object: {fileID: -1501121804190753195, guid: 4936499d9c70a6c4ca51d1cb27069fce, type: 3}
+      guid: 4936499d9c70a6c4ca51d1cb27069fce
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/singleshelfkitchen.fbx:Object3437
+    - object: {fileID: 1724831885784237334, guid: 45a633a654f087348969213b69ae7f48, type: 3}
+      guid: 45a633a654f087348969213b69ae7f48
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/deskchair.fbx:desk
+        chair
+    - object: {fileID: 3414463147842802935, guid: 4dfd50a1f648e984f8188be70774f281, type: 3}
+      guid: 4dfd50a1f648e984f8188be70774f281
+      assetBundlePath: Custom:UnityEngine.Transform, UnityEngine.CoreModule:Assets/Terrain/Prefabs/Grass_D.prefab:Grass_D
+    - object: {fileID: 4300000, guid: e3ff11dbbe2447f4390e781a3033d688, type: 3}
+      guid: e3ff11dbbe2447f4390e781a3033d688
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/FREE
+        Food Pack/Mesh/Chips_Bag.fbx:Chips_Bag
+    - object: {fileID: 4300026, guid: 9bde7338ed7c8a141b7a2e71c75febbe, type: 3}
+      guid: 9bde7338ed7c8a141b7a2e71c75febbe
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Meshes/Decorative plants.obj:Sphere_pot_collider
+    - object: {fileID: 4300000, guid: d0f2ab72785049643aa6edc83f32d9ab, type: 3}
+      guid: d0f2ab72785049643aa6edc83f32d9ab
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/FREE
+        Food Pack/Mesh/Watermelon.fbx:Watermelon
+    - object: {fileID: 2800000, guid: 108f1334f91ff45eaa0ad75ae1ef8e93, type: 3}
+      guid: 108f1334f91ff45eaa0ad75ae1ef8e93
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Textures/Version01/FreeEquipment01Material_Normal.png:FreeEquipment01Material_Normal
+    - object: {fileID: 2800000, guid: 7b8bfaee8f8631c4789ac62373cbc2d4, type: 3}
+      guid: 7b8bfaee8f8631c4789ac62373cbc2d4
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Packages/com.unity.inputsystem/InputSystem/Editor/Icons/TrackedPoseDriver@4x.png:TrackedPoseDriver@4x
+    - object: {fileID: 4300000, guid: a83ea36fea961a24f9d32eda0adb883d, type: 3}
+      guid: a83ea36fea961a24f9d32eda0adb883d
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/FREE
+        Food Pack/Mesh/Avocado.fbx:Avocado
+    - object: {fileID: 2800000, guid: cd3925797577e2e40aac903a92b30b57, type: 3}
+      guid: cd3925797577e2e40aac903a92b30b57
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Textures/Shrub normal.tga:Shrub normal
+    - object: {fileID: 9000000, guid: d734e0f1e8152164f912667b484f1bb9, type: 3}
+      guid: d734e0f1e8152164f912667b484f1bb9
+      assetBundlePath: Custom:UnityEngine.Avatar, UnityEngine.AnimationModule:Assets/External/printer/printer.FBX:printerAvatar
+    - object: {fileID: 2800000, guid: 713cf6e3dd3ff464cbf9f62e480cd810, type: 3}
+      guid: 713cf6e3dd3ff464cbf9f62e480cd810
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Tiles/Tiles_052/Tiles052_2K_Roughness.jpg:Tiles052_2K_Roughness
+    - object: {fileID: 8300000, guid: 0a2cac490a0598849bdd44988691a3d8, type: 3}
+      guid: 0a2cac490a0598849bdd44988691a3d8
+      assetBundlePath: Custom:UnityEngine.AudioClip, UnityEngine.AudioModule:Assets/Sounds/Clock
+        Ticking Sound Effect.mp3:Clock Ticking Sound Effect
+    - object: {fileID: 2800000, guid: 8f3b1046fec74b649a07a54917440bb4, type: 3}
+      guid: 8f3b1046fec74b649a07a54917440bb4
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/bed2/bed2normal.jpg:bed2normal
+    - object: {fileID: -8061240218431744966, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        RightHand Locomotion/Teleport Mode Activate
+    - object: {fileID: 2100000, guid: 6440467843e6c4620816451587b79027, type: 2}
+      guid: 6440467843e6c4620816451587b79027
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Materials/Version01/FreeStoveMaterial.mat:FreeStoveMaterial
+    - object: {fileID: 4300000, guid: df1666880554cd446af9d788cc7a7a19, type: 3}
+      guid: df1666880554cd446af9d788cc7a7a19
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/bed2/bed2.FBX:Cylinder001
+    - object: {fileID: 2800000, guid: 7686b978eaee64a74b68aa5bb62f1d23, type: 3}
+      guid: 7686b978eaee64a74b68aa5bb62f1d23
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Textures/Version01/FreeRefrigeratorMaterial_MetallicSmoothness.png:FreeRefrigeratorMaterial_MetallicSmoothness
+    - object: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+      guid: 4550859a7aa04294885f304e66040cfa
+      assetBundlePath: Builtin:UnityEngine.Mesh, UnityEngine.CoreModule:Library/unity
+        default resources:Plane
+    - object: {fileID: 2100000, guid: 8dde6263d34a3e34aa4f46d6e71b9d21, type: 2}
+      guid: 8dde6263d34a3e34aa4f46d6e71b9d21
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Materials/Palm Mat.mat:Palm Mat
+    - object: {fileID: 2100000, guid: df7fe48a4062d5448bff2a0f1470487e, type: 2}
+      guid: df7fe48a4062d5448bff2a0f1470487e
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/LowPolyFoodLite/Materials/LP_FoodLite_MAIN.mat:LP_FoodLite_MAIN
+    - object: {fileID: 2800000, guid: 217e5b80030b247999ebf8a2f8ec7898, type: 3}
+      guid: 217e5b80030b247999ebf8a2f8ec7898
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet01_Material_MetallicSmoothness.png:FreeCabinet01_Material_MetallicSmoothness
+    - object: {fileID: 2100000, guid: 7bbdba66bc24f465cac07ee3725d318b, type: 2}
+      guid: 7bbdba66bc24f465cac07ee3725d318b
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Materials/Version01/FreeCabinet03_Material.mat:FreeCabinet03_Material
+    - object: {fileID: 15600000, guid: 663f45615243d4c479d2e3571ab42ba9, type: 2}
+      guid: 663f45615243d4c479d2e3571ab42ba9
+      assetBundlePath: Custom:UnityEngine.TerrainData, UnityEngine.TerrainModule:Assets/Terrain/Outdoor.asset:Outdoor
+    - object: {fileID: 5561349426305759274, guid: ab3a79eba4de4be0ad5fead9fb858190, type: 3}
+      guid: ab3a79eba4de4be0ad5fead9fb858190
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/Models/Primitive_Wedge.fbx:lambert1
+    - object: {fileID: 2100000, guid: 196b3fd804c0da644bd0e5b5c62f88f0, type: 2}
+      guid: 196b3fd804c0da644bd0e5b5c62f88f0
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Paintings/Retro
+        Futurism Painting.mat:Retro Futurism Painting
+    - object: {fileID: 2800000, guid: 0c0cb20b2b9ffa246b800ea18e389601, type: 3}
+      guid: 0c0cb20b2b9ffa246b800ea18e389601
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Textures/tile_1_AlbedoTransparency.png:tile_1_AlbedoTransparency
+    - object: {fileID: 18005, guid: 0000000000000000f000000000000000, type: 0}
+      guid: 4a49f3ba19d14ee9816960edbf018acf
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Resources/unity_builtin_extra:Hidden/TerrainEngine/CrossBlendNeighbors
+    - object: {fileID: 2100000, guid: d1a39f9a5dcebb343b003dbf2caf1d63, type: 2}
+      guid: d1a39f9a5dcebb343b003dbf2caf1d63
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/bed2/Materials/bed2.mat:bed2
+    - object: {fileID: 2100000, guid: 4615f077ccf5f7745a07fc1d6f148c81, type: 2}
+      guid: 4615f077ccf5f7745a07fc1d6f148c81
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Tiles_040.mat:Tiles_040
+    - object: {fileID: 2100000, guid: c7f098a102bd28e4fb44c2f2aa035a8f, type: 2}
+      guid: c7f098a102bd28e4fb44c2f2aa035a8f
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Wood.mat:Wood
+    - object: {fileID: 2800000, guid: 400a6e233ad7bab4d92b87b5d97d2a00, type: 3}
+      guid: 400a6e233ad7bab4d92b87b5d97d2a00
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Metal/Metal_005/MetalStainlessSteelBrushedElongated005_NRM16_3K_METALNESS.tif:MetalStainlessSteelBrushedElongated005_NRM16_3K_METALNESS
+    - object: {fileID: 2100000, guid: 1ca37e518845d4048973baf39f8666c7, type: 2}
+      guid: 1ca37e518845d4048973baf39f8666c7
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Materials/Version01/FreeEquipment01Material.mat:FreeEquipment01Material
+    - object: {fileID: 737890489006591557, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        LeftHand Locomotion/Teleport Mode Cancel
+    - object: {fileID: 2100000, guid: 365e86814e97b4642964767e444d5535, type: 2}
+      guid: 365e86814e97b4642964767e444d5535
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Materials/Version01/FreeEquipment02Material.mat:FreeEquipment02Material
+    - object: {fileID: 2100000, guid: dded4574b0ad9d042a2c3609d05afa8d, type: 2}
+      guid: dded4574b0ad9d042a2c3609d05afa8d
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Paintings/Cat
+        Painting.mat:Cat Painting
+    - object: {fileID: 2800000, guid: ca54b8fb80fd0d9429e04657288a6abc, type: 3}
+      guid: ca54b8fb80fd0d9429e04657288a6abc
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Tiles/Tiles_040/Tiles040_2K_Color.png:Tiles040_2K_Color
+    - object: {fileID: 5561349426305759274, guid: f077c919501a44778a0c2edb6eb1a54a, type: 3}
+      guid: f077c919501a44778a0c2edb6eb1a54a
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/Models/Primitive_Torus.fbx:lambert1
+    - object: {fileID: 8447527527854857673, guid: b24b87943bab3424f8aaf3fc32c94734, type: 3}
+      guid: b24b87943bab3424f8aaf3fc32c94734
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/Foods/Fruit.FBX:stake
+    - object: {fileID: 2100000, guid: 4a8b8ad71acb12742905fd123315fce9, type: 2}
+      guid: 4a8b8ad71acb12742905fd123315fce9
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Record_player/Materials/plattenspieler-metal.mat:plattenspieler-metal
+    - object: {fileID: 5475687684210800135, guid: 8aac9095acdad34468b2d0b33020dc48, type: 3}
+      guid: 8aac9095acdad34468b2d0b33020dc48
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/stuff.fbx:MetalPhong
+    - object: {fileID: 2800000, guid: 03bbcee8e8eb50e4a82343f3243eae3d, type: 3}
+      guid: 03bbcee8e8eb50e4a82343f3243eae3d
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Textures/MetalBare0094_S.jpg:MetalBare0094_S
+    - object: {fileID: 2100000, guid: 81ce3c0139f763d4a80369afaa9977b4, type: 2}
+      guid: 81ce3c0139f763d4a80369afaa9977b4
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/_SNAPS_PrototypingAssets/APAC_Residential/Materials/Red_snaps004.mat:Red_snaps004
+    - object: {fileID: 2800000, guid: 11966539e5ce4dc45ad867f7a3b90663, type: 3}
+      guid: 11966539e5ce4dc45ad867f7a3b90663
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/SmallElectronics/Keyboard
+        & Mouse/Tex/Keyboard_Albedo.tga:Keyboard_Albedo
+    - object: {fileID: 2100000, guid: 4dad30bbe2213eb4d8312f7bb6190866, type: 2}
+      guid: 4dad30bbe2213eb4d8312f7bb6190866
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Plastic_Gray_Mat.mat:Plastic_Gray_Mat
+    - object: {fileID: 2800000, guid: 40da0395b61db4448b98bab66d6b549c, type: 3}
+      guid: 40da0395b61db4448b98bab66d6b549c
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Metal/Metal_MetallicSmoothness.tif:Metal_MetallicSmoothness
+    - object: {fileID: 2800000, guid: e13693b68e4d11045bd95c1b082de461, type: 3}
+      guid: e13693b68e4d11045bd95c1b082de461
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Porcelain/Porcelain_001/Porcelain001_2K_Displacement.jpg:Porcelain001_2K_Displacement
+    - object: {fileID: 1263111715868034790, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        LeftHand Locomotion/Teleport Mode Activate
+    - object: {fileID: 2800000, guid: 77583f99dea53b641804bb357092ec83, type: 3}
+      guid: 77583f99dea53b641804bb357092ec83
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Metal/Metal_Albedo.tif:Metal_Albedo
+    - object: {fileID: 10101, guid: 0000000000000000e000000000000000, type: 0}
+      guid: 8a8932a51ef2471db2a2aef3f0ad9860
+      assetBundlePath: Builtin:UnityEngine.Shader, UnityEngine.CoreModule:Library/unity
+        default resources:GUI/Text Shader
+    - object: {fileID: 2800000, guid: 3b0b7c1f4ac9f6b499e27cf84e722ff4, type: 3}
+      guid: 3b0b7c1f4ac9f6b499e27cf84e722ff4
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Metal/Metal_Normal.tif:Metal_Normal
+    - object: {fileID: 2800000, guid: 7f111e20c43a9af46a06e09988a44f99, type: 3}
+      guid: 7f111e20c43a9af46a06e09988a44f99
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/SmallElectronics/Keyboard
+        & Mouse/Tex/Mouse_Albedo.tga:Mouse_Albedo
+    - object: {fileID: 2800000, guid: f46bd98e04a2ff8419549d6128bb5690, type: 3}
+      guid: f46bd98e04a2ff8419549d6128bb5690
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Porcelain/Porcelain_001/Porcelain001_2K_Roughness.jpg:Porcelain001_2K_Roughness
+    - object: {fileID: 2800000, guid: b369b00c9a416ef408e5b352fd959322, type: 3}
+      guid: b369b00c9a416ef408e5b352fd959322
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Porcelain/Porcelain_001/Porcelain001_2K_Color.jpg:Porcelain001_2K_Color
+    - object: {fileID: 2100000, guid: a0427cf339e5891468d5f2b433b2d44a, type: 2}
+      guid: a0427cf339e5891468d5f2b433b2d44a
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Metal_Simple_Mat.mat:Metal_Simple_Mat
+    - object: {fileID: 2800000, guid: 3fc8f9a06e431c74ca160d148a264b2a, type: 3}
+      guid: 3fc8f9a06e431c74ca160d148a264b2a
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Bath/Textures/Bath_AO.png:Bath_AO
+    - object: {fileID: 5460904818283833236, guid: 3ccf8051465073649bf209415d17effb, type: 3}
+      guid: 3ccf8051465073649bf209415d17effb
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/pandora-dressoir.FBX:WOOD_PANDORA
+    - object: {fileID: 4301407030581277381, guid: 2a10d5b27ea3ea04fae21bb0d081ac7f, type: 3}
+      guid: 2a10d5b27ea3ea04fae21bb0d081ac7f
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Bathroom
+        Shower.obj:Architectural_Model_008_01_Shower_02Mat
+    - object: {fileID: 2800000, guid: d4b958a8c7f059e47b44fab9d92c194c, type: 3}
+      guid: d4b958a8c7f059e47b44fab9d92c194c
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Tiles/Tiles_040/Tiles040_2K_Normal.png:Tiles040_2K_Normal
+    - object: {fileID: 2800000, guid: b7287852b06eee0459dd5a4008e8c415, type: 3}
+      guid: b7287852b06eee0459dd5a4008e8c415
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Porcelain/Porcelain_001/Porcelain001_2K_Normal.jpg:Porcelain001_2K_Normal
+    - object: {fileID: 2100000, guid: 86b0ca4aa220d734ba7bd8168f8ba6ad, type: 2}
+      guid: 86b0ca4aa220d734ba7bd8168f8ba6ad
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Glass_fog.mat:Glass_fog
+    - object: {fileID: 2800000, guid: a8ed09a504eb69444afdbf79d365189c, type: 3}
+      guid: a8ed09a504eb69444afdbf79d365189c
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/pc_desk/Textures/pc_desk_metal+smooth_Metalness.png:pc_desk_metal+smooth_Metalness
+    - object: {fileID: -389402008792246631, guid: a21db392c03da4844897a5f2a335e67a, type: 3}
+      guid: a21db392c03da4844897a5f2a335e67a
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/fridge.fbx:Plastic
+    - object: {fileID: 2800000, guid: df6d73a460f7f9d479b50dd8d929e927, type: 3}
+      guid: df6d73a460f7f9d479b50dd8d929e927
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Fabric/Fabric_031/Fabric031_2K_Normal.jpg:Fabric031_2K_Normal
+    - object: {fileID: 2800000, guid: 3e5e92542ece99147b456c670fc01305, type: 3}
+      guid: 3e5e92542ece99147b456c670fc01305
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Fabric/Fabric007/Fabric007_2K_Normal.jpg:Fabric007_2K_Normal
+    - object: {fileID: 2800000, guid: fc1236aa0d2d1b24990a49ae5ecf6944, type: 3}
+      guid: fc1236aa0d2d1b24990a49ae5ecf6944
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Bath/Textures/Bath_MetallicSmoothness.png:Bath_MetallicSmoothness
+    - object: {fileID: 2800000, guid: 5bd643687b44c284f877f57c3f2bc3e7, type: 3}
+      guid: 5bd643687b44c284f877f57c3f2bc3e7
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Fabric/Fabric007/Fabric007_2K_Roughness.jpg:Fabric007_2K_Roughness
+    - object: {fileID: 2800000, guid: 85c8800ca193a824d8f2902967ae01ba, type: 3}
+      guid: 85c8800ca193a824d8f2902967ae01ba
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Textures/Palm normal.tga:Palm normal
+    - object: {fileID: 2800000, guid: a5c43a3c8db964540b722be4558e185c, type: 3}
+      guid: a5c43a3c8db964540b722be4558e185c
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Fabric/Fabric007/Fabric007_2K_Color.jpg:Fabric007_2K_Color
+    - object: {fileID: 2800000, guid: 4b370b27e6695c645a03d115d9215dfa, type: 3}
+      guid: 4b370b27e6695c645a03d115d9215dfa
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Bath/Textures/Curtain_MetallicSmoothness.png:Curtain_MetallicSmoothness
+    - object: {fileID: 2800000, guid: 76ba20081f631534b90a0335fa1e9966, type: 3}
+      guid: 76ba20081f631534b90a0335fa1e9966
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Bath/Textures/Bath_AlbedoTransparency.png:Bath_AlbedoTransparency
+    - object: {fileID: 2800000, guid: b038eb5deb5bd454989de2e91f6f16ba, type: 3}
+      guid: b038eb5deb5bd454989de2e91f6f16ba
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/Materials/Textures/plume_logo.png:plume_logo
+    - object: {fileID: 670224309865224971, guid: be3083a5f26d4e859d594ecbe632f87e, type: 3}
+      guid: be3083a5f26d4e859d594ecbe632f87e
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/Models/XRControllerLeft.fbx:No Name
+    - object: {fileID: 2100000, guid: 251db8f63505a754183a81b6d697686e, type: 2}
+      guid: 251db8f63505a754183a81b6d697686e
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/blue_glass_fog.mat:blue_glass_fog
+    - object: {fileID: 2100000, guid: e31dd9c7984fd514d832828c89080f1e, type: 2}
+      guid: e31dd9c7984fd514d832828c89080f1e
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Bath/Mesh/M_Bath.mat:M_Bath
+    - object: {fileID: 2800000, guid: 759f6752d3450fe4080399b9aca325fb, type: 3}
+      guid: 759f6752d3450fe4080399b9aca325fb
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Bath/Textures/Curtain_AlbedoTransparency.png:Curtain_AlbedoTransparency
+    - object: {fileID: 2100000, guid: 9542b99180e01e24590d291b08292a3b, type: 2}
+      guid: 9542b99180e01e24590d291b08292a3b
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/Materials/Primary.mat:Primary
+    - object: {fileID: 2800000, guid: 3d2ee9768700ed0469a51e77185edcae, type: 3}
+      guid: 3d2ee9768700ed0469a51e77185edcae
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Fabric/Fabric007/Fabric007_2K_Displacement.jpg:Fabric007_2K_Displacement
+    - object: {fileID: -2089590276891748742, guid: 1b45efd79c9345c4088f7ca2a8bf1454, type: 3}
+      guid: 1b45efd79c9345c4088f7ca2a8bf1454
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/Foods/export_low_poly.obj:low_0Mat
+    - object: {fileID: 670224309865224971, guid: 11cd62256b1d470f922b2c8e6446cc77, type: 3}
+      guid: 11cd62256b1d470f922b2c8e6446cc77
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/Models/XRControllerRight.fbx:No
+        Name
+    - object: {fileID: 2800000, guid: bafdc1a7af88dfd44b034861c1d47954, type: 3}
+      guid: bafdc1a7af88dfd44b034861c1d47954
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Record_player/Textures/record_player.bmp:record_player
+    - object: {fileID: 2800000, guid: a02addb2c96909a46bdc31301ef07e44, type: 3}
+      guid: a02addb2c96909a46bdc31301ef07e44
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Wood/Wood025/Wood025_2K_Normal.jpg:Wood025_2K_Normal
+    - object: {fileID: 2800000, guid: 503e235e0f03604479e3222bd7be0cea, type: 3}
+      guid: 503e235e0f03604479e3222bd7be0cea
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/SmallElectronics/Keyboard
+        & Mouse/Tex/Mouse_Normal.tga:Mouse_Normal
+    - object: {fileID: 2800000, guid: c693d1cc9dbbc492db218d97c3449892, type: 3}
+      guid: c693d1cc9dbbc492db218d97c3449892
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet03_Material_MetallicSmoothness.png:FreeCabinet03_Material_MetallicSmoothness
+    - object: {fileID: 2800000, guid: d1a4aa6101b4cf2409223bde62363fa4, type: 3}
+      guid: d1a4aa6101b4cf2409223bde62363fa4
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Bath/Textures/Bath_Normal.png:Bath_Normal
+    - object: {fileID: 2800000, guid: 696617d4dc7551d4cb58b7f30d022160, type: 3}
+      guid: 696617d4dc7551d4cb58b7f30d022160
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/Terrain/Textures/Details/Grass_C_BaseColor.tif:Grass_C_BaseColor
+    - object: {fileID: 2100000, guid: b46f37dac1bfb664fbbb45087a0bc429, type: 2}
+      guid: b46f37dac1bfb664fbbb45087a0bc429
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Bath/Mesh/M_Curtain.mat:M_Curtain
+    - object: {fileID: 2100000, guid: f5d9799fc7f22024fb08d428a45d87ab, type: 2}
+      guid: f5d9799fc7f22024fb08d428a45d87ab
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Glass.mat:Glass
+    - object: {fileID: 4470659700527174684, guid: 5c43bcb09f59398438fe6564b1da6e84, type: 3}
+      guid: 5c43bcb09f59398438fe6564b1da6e84
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/SmallElectronics/Keyboard
+        & Mouse/Mouse.fbx:MAT_Mouse
+    - object: {fileID: 2800000, guid: ee25fc50f778864429fe7079f8958a3b, type: 3}
+      guid: ee25fc50f778864429fe7079f8958a3b
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Tiles/Tiles_036/Tiles036_2K_Normal.jpg:Tiles036_2K_Normal
+    - object: {fileID: 2100000, guid: 3a24feea35196724982bedd85d5521a3, type: 2}
+      guid: 3a24feea35196724982bedd85d5521a3
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Porcelain_001.mat:Porcelain_001
+    - object: {fileID: 2800000, guid: 98414934c3a6c114e98bbbb9954c3545, type: 3}
+      guid: 98414934c3a6c114e98bbbb9954c3545
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Tiles/Tiles_071/Tiles071_2K_Roughness.jpg:Tiles071_2K_Roughness
+    - object: {fileID: 2100000, guid: 92a7699b563e4465eb3c8a886a327bda, type: 2}
+      guid: 92a7699b563e4465eb3c8a886a327bda
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Materials/Version01/FreeCabinet01_Material.mat:FreeCabinet01_Material
+    - object: {fileID: 2800000, guid: 083281d80331941689e8b05c1410004e, type: 3}
+      guid: 083281d80331941689e8b05c1410004e
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet01_Material_Normal.png:FreeCabinet01_Material_Normal
+    - object: {fileID: 2100000, guid: b7c68d6269f6dae4e92105bcdfed09ea, type: 2}
+      guid: b7c68d6269f6dae4e92105bcdfed09ea
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Tiles_071.mat:Tiles_071
+    - object: {fileID: 2800000, guid: b7b9dc7adf917ca42bd4bedbc572ceb4, type: 3}
+      guid: b7b9dc7adf917ca42bd4bedbc572ceb4
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Wood/Wood025/Wood025_2K_Color.jpg:Wood025_2K_Color
+    - object: {fileID: 2100000, guid: 2bd7b2b66234bf142bf2cccf08927f9f, type: 2}
+      guid: 2bd7b2b66234bf142bf2cccf08927f9f
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/Materials/Logo.mat:Logo
+    - object: {fileID: -3846018093981099296, guid: 0ccdc52da9864e34b8953469d84a98d5, type: 3}
+      guid: 0ccdc52da9864e34b8953469d84a98d5
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/Models/egg.fbx:Material.002
+    - object: {fileID: 2100000, guid: 7bb40e83f1ae955449d9a614144aa8b5, type: 2}
+      guid: 7bb40e83f1ae955449d9a614144aa8b5
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Wall_Red.mat:Wall_Red
+    - object: {fileID: 2800000, guid: fadc90d69dc2497498413bdd5879f885, type: 3}
+      guid: fadc90d69dc2497498413bdd5879f885
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/interior/floor.png:floor
+    - object: {fileID: 2800000, guid: 4139fe8ab11d55d478afa90fd0bec01f, type: 3}
+      guid: 4139fe8ab11d55d478afa90fd0bec01f
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Tiles/Tiles_071/Tiles071_2K_AmbientOcclusion.jpg:Tiles071_2K_AmbientOcclusion
+    - object: {fileID: 2800000, guid: 13d4be35d11b127489f798e5129eb04d, type: 3}
+      guid: 13d4be35d11b127489f798e5129eb04d
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/interior/floor
+        - Copy.png:floor - Copy
+    - object: {fileID: 2800000, guid: c327b750a00e49c4ea67261f44284c52, type: 3}
+      guid: c327b750a00e49c4ea67261f44284c52
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Tiles/Tiles_071/Tiles071_2K_Displacement.jpg:Tiles071_2K_Displacement
+    - object: {fileID: 2800000, guid: e6e72826b80d67e4980706dc3018de08, type: 3}
+      guid: e6e72826b80d67e4980706dc3018de08
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Cushion/summer_leaves_texture_seamless_pattern_312701.jpg:summer_leaves_texture_seamless_pattern_312701
+    - object: {fileID: -4675225737150268900, guid: d99dbb388f382f741a2c25257027c782, type: 3}
+      guid: d99dbb388f382f741a2c25257027c782
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/SmallElectronics/Remote
+        Control/Remote_control.fbx:MAT_RemoteControl
+    - object: {fileID: 2800000, guid: d4335af3713b826468cbcdcdad728152, type: 3}
+      guid: d4335af3713b826468cbcdcdad728152
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Tiles/Tiles_071/Tiles071_2K_Normal.jpg:Tiles071_2K_Normal
+    - object: {fileID: 2800000, guid: 0195ac67f1c180c4d880e57ff21b1535, type: 3}
+      guid: 0195ac67f1c180c4d880e57ff21b1535
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Textures/Bamboo diffuse.tga:Bamboo diffuse
+    - object: {fileID: 2800000, guid: 18bcd9b4d41228747bd2520742ca5a78, type: 3}
+      guid: 18bcd9b4d41228747bd2520742ca5a78
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Textures/Cover normal.tga:Cover normal
+    - object: {fileID: 2100000, guid: 9a664fcb681f24346a660d6e3459e43b, type: 2}
+      guid: 9a664fcb681f24346a660d6e3459e43b
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Materials/Cover Mat.mat:Cover Mat
+    - object: {fileID: -6478536213147159724, guid: 0ccdc52da9864e34b8953469d84a98d5, type: 3}
+      guid: 0ccdc52da9864e34b8953469d84a98d5
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/Models/egg.fbx:Material.001
+    - object: {fileID: 2800000, guid: 63c1b6fed17213f4aa5676971ab0e941, type: 3}
+      guid: 63c1b6fed17213f4aa5676971ab0e941
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Plaster/Plaster001_2K_Color.jpg:Plaster001_2K_Color
+    - object: {fileID: 2100000, guid: 8bdc541be8d2a5d41bfd62cdfadf602b, type: 2}
+      guid: 8bdc541be8d2a5d41bfd62cdfadf602b
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Fabric007.mat:Fabric007
+    - object: {fileID: 2800000, guid: d84dbe1cdb652974d9a009ac77fd33cb, type: 3}
+      guid: d84dbe1cdb652974d9a009ac77fd33cb
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Textures/Pot normal.tga:Pot normal
+    - object: {fileID: 2800000, guid: 545c3b2775288b84da790ffc128c7701, type: 3}
+      guid: 545c3b2775288b84da790ffc128c7701
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Tiles/Tiles_052/Tiles052_2K_Color.jpg:Tiles052_2K_Color
+    - object: {fileID: 2100000, guid: 78b806c0e0ac4b64f9c99cd378e8ba61, type: 2}
+      guid: 78b806c0e0ac4b64f9c99cd378e8ba61
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Materials/Pot Mat.mat:Pot Mat
+    - object: {fileID: 2800000, guid: 8e36da382fc724845902197067dea7fe, type: 3}
+      guid: 8e36da382fc724845902197067dea7fe
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Textures/Pot diffuse.tga:Pot diffuse
+    - object: {fileID: 2800000, guid: e05fc2bdf74b14801baad9fa2c699dd3, type: 3}
+      guid: e05fc2bdf74b14801baad9fa2c699dd3
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Textures/Version01/FreeStoveMaterial_Normal.png:FreeStoveMaterial_Normal
+    - object: {fileID: 2800000, guid: e109905c411b0f84e82eaaf2705ece30, type: 3}
+      guid: e109905c411b0f84e82eaaf2705ece30
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Plastic/Plastic_Normal.tif:Plastic_Normal
+    - object: {fileID: 2100000, guid: 683268c00b34a8d4ca7a0e7bc639d990, type: 2}
+      guid: 683268c00b34a8d4ca7a0e7bc639d990
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Wood_floor.mat:Wood_floor
+    - object: {fileID: 2100000, guid: c5254113fa984b34e899d993a4af623b, type: 2}
+      guid: c5254113fa984b34e899d993a4af623b
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Fabric_031.mat:Fabric_031
+    - object: {fileID: 2800000, guid: ad77cf091ef199a489cb4f233571ae9c, type: 3}
+      guid: ad77cf091ef199a489cb4f233571ae9c
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Textures/Bamboo normal.tga:Bamboo normal
+    - object: {fileID: 4300000, guid: 044d8e52988cff64ea695008a73864d8, type: 2}
+      guid: 044d8e52988cff64ea695008a73864d8
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/_SNAPS_PrototypingAssets/APAC_Residential/Prefabs/Props/Toilet/Meshes/Toilet_A_snaps004.asset:Toilet_A_snaps004
+    - object: {fileID: 2100000, guid: 241835fd5e15cda48b356ccda4a31a92, type: 2}
+      guid: 241835fd5e15cda48b356ccda4a31a92
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Materials/Bamboo Mat.mat:Bamboo Mat
+    - object: {fileID: 2800000, guid: 9cd187d8b5e501c4da4b5698f6651cb7, type: 3}
+      guid: 9cd187d8b5e501c4da4b5698f6651cb7
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Tiles/Tiles_036/Tiles036_2K_Color.jpg:Tiles036_2K_Color
+    - object: {fileID: 2800000, guid: 2fa56d1ec3991ff49ac3f8811cc4cd67, type: 3}
+      guid: 2fa56d1ec3991ff49ac3f8811cc4cd67
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Metal/Metal_032/Metal032_2K_Displacement.jpg:Metal032_2K_Displacement
+    - object: {fileID: 2100000, guid: 6cfe423139c361a459da7ed9831d4b1c, type: 2}
+      guid: 6cfe423139c361a459da7ed9831d4b1c
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Plastic_White_Mat.mat:Plastic_White_Mat
+    - object: {fileID: 2100000, guid: d03bc8674e20a354eb74222fdf34c9bd, type: 2}
+      guid: d03bc8674e20a354eb74222fdf34c9bd
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/pc_desk/Material/pc_desk.mat:pc_desk
+    - object: {fileID: 2800000, guid: cee06a39d33cb084ebf1394da488d4db, type: 3}
+      guid: cee06a39d33cb084ebf1394da488d4db
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Textures/Cover diffuse.tga:Cover diffuse
+    - object: {fileID: 2800000, guid: 13ce043e0a06b3f4e83f7d35e10132aa, type: 3}
+      guid: 13ce043e0a06b3f4e83f7d35e10132aa
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Metal/Metal_032/Metal032_2K_Normal.jpg:Metal032_2K_Normal
+    - object: {fileID: 2800000, guid: 89c4327f1e920f84e80d38e7747cd120, type: 3}
+      guid: 89c4327f1e920f84e80d38e7747cd120
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Metal/Metal_032/Metal032_2K_Color.jpg:Metal032_2K_Color
+    - object: {fileID: 2800000, guid: bbc46aa1f1a7b3f4fbef7326aedf7fc8, type: 3}
+      guid: bbc46aa1f1a7b3f4fbef7326aedf7fc8
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/SmallElectronics/Remote
+        Control/Control_Albedo.tga:Control_Albedo
+    - object: {fileID: 2800000, guid: a2fe4d60ec8f2fc42aec306c650aaeca, type: 3}
+      guid: a2fe4d60ec8f2fc42aec306c650aaeca
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Textures/Kitchen/c3b2fdf4355b.jpg:c3b2fdf4355b
+    - object: {fileID: 2800000, guid: 73ce3860f82103d4da6690271b778fb0, type: 3}
+      guid: 73ce3860f82103d4da6690271b778fb0
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/pc_desk/Textures/pc_desk_albedo.png:pc_desk_albedo
+    - object: {fileID: 4874126678125670354, guid: 0ccdc52da9864e34b8953469d84a98d5, type: 3}
+      guid: 0ccdc52da9864e34b8953469d84a98d5
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/Models/egg.fbx:Material.003
+    - object: {fileID: 2100000, guid: 26957f9231da4dc4aa645a8237211381, type: 2}
+      guid: 26957f9231da4dc4aa645a8237211381
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Wood_025.mat:Wood_025
+    - object: {fileID: 2800000, guid: 1f89fed00b6bc904c861ab847a811cb8, type: 3}
+      guid: 1f89fed00b6bc904c861ab847a811cb8
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Plastic/Plastic_AlbedoSmoothness.tif:Plastic_AlbedoSmoothness
+    - object: {fileID: 2100000, guid: 0f860c0ac6f1a8e4c9829e661350bb4c, type: 2}
+      guid: 0f860c0ac6f1a8e4c9829e661350bb4c
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/plastic_black.mat:plastic_black
+    - object: {fileID: 2100000, guid: cd71291c91c8cce499cb663b5db9970e, type: 2}
+      guid: cd71291c91c8cce499cb663b5db9970e
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Metal_Blue_Simple_Mat.mat:Metal_Blue_Simple_Mat
+    - object: {fileID: 2800000, guid: 136e2394c5edc3b46b56faa7a3078de6, type: 3}
+      guid: 136e2394c5edc3b46b56faa7a3078de6
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Fabric/Fabric_036/Fabric036_2K_Normal.jpg:Fabric036_2K_Normal
+    - object: {fileID: 2800000, guid: 43377eaa5df746b4aae828047f51089c, type: 3}
+      guid: 43377eaa5df746b4aae828047f51089c
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/FREE
+        Food Pack/Textures/Food_Texture.png:Food_Texture
+    - object: {fileID: 2800000, guid: 90f8038ad10b1384299d228dd066fa1d, type: 3}
+      guid: 90f8038ad10b1384299d228dd066fa1d
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Metal/Metal_032/Metal032_2K_Metalness.jpg:Metal032_2K_Metalness
+    - object: {fileID: 2100000, guid: 6e6ad01b38823a24f9bf58056de9efef, type: 2}
+      guid: 6e6ad01b38823a24f9bf58056de9efef
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/printer/Materials/printer.mat:printer
+    - object: {fileID: 2800000, guid: 121b431abff05284da613958b5ccf48e, type: 3}
+      guid: 121b431abff05284da613958b5ccf48e
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Fabric/Fabric_036/Fabric036_2K_Color.jpg:Fabric036_2K_Color
+    - object: {fileID: 2800000, guid: 89683d36aedfa034c92ec6d2bf470fe3, type: 3}
+      guid: 89683d36aedfa034c92ec6d2bf470fe3
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/ATLAS/Customizable
+        Kitchen Pack/Textures/Seamless/Wood/PSD/Wood_Pine.psd:Wood_Pine
+    - object: {fileID: -3159386391466907222, guid: 45a633a654f087348969213b69ae7f48, type: 3}
+      guid: 45a633a654f087348969213b69ae7f48
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/deskchair.fbx:fabric
+    - object: {fileID: 8179950471607230371, guid: de316bf94a202ce41ac37371aac8b564, type: 3}
+      guid: de316bf94a202ce41ac37371aac8b564
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/Paints/Painting-004.fbx:Color_M00
+    - object: {fileID: 2800000, guid: 6ec64c9c65aea2f46960d886eb22001e, type: 3}
+      guid: 6ec64c9c65aea2f46960d886eb22001e
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Tiles/Tiles_071/Tiles071_2K_Color.jpg:Tiles071_2K_Color
+    - object: {fileID: 2100000, guid: 2850077841eb3d645a83750d4be206fe, type: 2}
+      guid: 2850077841eb3d645a83750d4be206fe
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Wall_Blue.mat:Wall_Blue
+    - object: {fileID: 2100000, guid: 6271f5553748c44449a1ddbce447025d, type: 2}
+      guid: 6271f5553748c44449a1ddbce447025d
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Tiles_036.mat:Tiles_036
+    - object: {fileID: 2100000, guid: d167a1e6f84852946bc2c9cfca14d358, type: 2}
+      guid: d167a1e6f84852946bc2c9cfca14d358
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/ATLAS/Customizable
+        Kitchen Pack/Materials/Seamless/Wood/Wood_Pine.mat:Wood_Pine
+    - object: {fileID: 670224309865224971, guid: 0ce7e0f25153c1c4ab06af1f5f3cbdf6, type: 3}
+      guid: 0ce7e0f25153c1c4ab06af1f5f3cbdf6
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/closet.fbx:No
+        Name
+    - object: {fileID: 2100000, guid: 83b6e31665dee834b9c3a014d4fa2a01, type: 2}
+      guid: 83b6e31665dee834b9c3a014d4fa2a01
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/plastic_ridges.mat:plastic_ridges
+    - object: {fileID: 4300000, guid: ea65a302fdcb31f4a85e3a7fbbb82db0, type: 3}
+      guid: ea65a302fdcb31f4a85e3a7fbbb82db0
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/glass_table/glass_table.FBX:Cylinder002
+    - object: {fileID: 471828, guid: 19682540d8a014522a319b1cf788aee2, type: 3}
+      guid: 19682540d8a014522a319b1cf788aee2
+      assetBundlePath: Custom:UnityEngine.Transform, UnityEngine.CoreModule:Assets/External/Darth_Artisan/Free_Trees/Prefabs/Fir_Tree.prefab:Fir_Tree
+    - object: {fileID: 2100000, guid: 8c740ae1a0da6f94ba652746b7bfa443, type: 2}
+      guid: 8c740ae1a0da6f94ba652746b7bfa443
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Metal/Metal_005/Metal_005.mat:Metal_005
+    - object: {fileID: 2100000, guid: 6074d9b3e1de3934e98ff98c858d49b4, type: 2}
+      guid: 6074d9b3e1de3934e98ff98c858d49b4
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/Materials/Mark.mat:Mark
+    - object: {fileID: 2800000, guid: 6a3bbb38cc253054b8e2f2aa656424a8, type: 3}
+      guid: 6a3bbb38cc253054b8e2f2aa656424a8
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/interior/wall.jpg:wall
+    - object: {fileID: 2800000, guid: 76d96ad8e72e2004d84590162c538dc0, type: 3}
+      guid: 76d96ad8e72e2004d84590162c538dc0
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/Materials/Textures/parchment_alpha.png:parchment_alpha
+    - object: {fileID: 9000000, guid: ea65a302fdcb31f4a85e3a7fbbb82db0, type: 3}
+      guid: ea65a302fdcb31f4a85e3a7fbbb82db0
+      assetBundlePath: Custom:UnityEngine.Avatar, UnityEngine.AnimationModule:Assets/External/glass_table/glass_table.FBX:glass_tableAvatar
+    - object: {fileID: 2800000, guid: c8b8fa1b153cfd3428c4c5c2fded152e, type: 3}
+      guid: c8b8fa1b153cfd3428c4c5c2fded152e
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/Terrain/Textures/Terrain/Heather_Normal.tif:Heather_Normal
+    - object: {fileID: 2800000, guid: 377f06b1a3354d645b666cd8109a770e, type: 3}
+      guid: 377f06b1a3354d645b666cd8109a770e
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Textures/Gas_Planet_G.png:Gas_Planet_G
+    - object: {fileID: 2800000, guid: 240efe9002d9e7a44b9f2a592f357102, type: 3}
+      guid: 240efe9002d9e7a44b9f2a592f357102
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/Terrain/Textures/Terrain/Heather_MaskMap.tif:Heather_MaskMap
+    - object: {fileID: 2800000, guid: f9fdb98ee43600e4498b04cb22975c0c, type: 3}
+      guid: f9fdb98ee43600e4498b04cb22975c0c
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Cushion/1528185503_7432.jpg:1528185503_7432
+    - object: {fileID: 2100000, guid: 6f3e17d5e8fb6e6499355ca280727a69, type: 2}
+      guid: 6f3e17d5e8fb6e6499355ca280727a69
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Wall_White.mat:Wall_White
+    - object: {fileID: 2100000, guid: 13d9258d301fbf04a800ba6fbc401c70, type: 2}
+      guid: 13d9258d301fbf04a800ba6fbc401c70
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Ceiling
+        1.mat:Ceiling 1
+    - object: {fileID: 2800000, guid: ea7fdc1845fe94add88b7b986e5eb52e, type: 3}
+      guid: ea7fdc1845fe94add88b7b986e5eb52e
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Textures/Version01/FreeStoveMaterial_MetallicSmoothness.png:FreeStoveMaterial_MetallicSmoothness
+    - object: {fileID: 2800000, guid: 87735acf16005914dba9087627517773, type: 3}
+      guid: 87735acf16005914dba9087627517773
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/Terrain/Textures/Terrain/Heather_BaseColor.tif:Heather_BaseColor
+    - object: {fileID: 2800000, guid: dd061fd1241b917428b16f9a4e79d829, type: 3}
+      guid: dd061fd1241b917428b16f9a4e79d829
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/Materials/Textures/eggicon.PNG:eggicon
+    - object: {fileID: 2800000, guid: d835c61db4c94444eabef9cf95e8a7c4, type: 3}
+      guid: d835c61db4c94444eabef9cf95e8a7c4
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/Terrain/Textures/Terrain/Grass_Dry_Normal.tif:Grass_Dry_Normal
+    - object: {fileID: 2800000, guid: 9f2c593ad6e69ad4ab880e57ce9b69d6, type: 3}
+      guid: 9f2c593ad6e69ad4ab880e57ce9b69d6
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/Terrain/Textures/Terrain/Grass_Dry_MaskMap.tif:Grass_Dry_MaskMap
+    - object: {fileID: 2100000, guid: 332bdbcd0d20e9741af2e5ed17df2f8f, type: 2}
+      guid: 332bdbcd0d20e9741af2e5ed17df2f8f
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/Paints/Art_003.mat:Art_003
+    - object: {fileID: 4563715277606507243, guid: d3efe2737c200cf4685ae22e00d72e24, type: 3}
+      guid: d3efe2737c200cf4685ae22e00d72e24
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/Paints/Painting-006.fbx:Art_006
+    - object: {fileID: 2800000, guid: a8a2fc863627f464e838ba616a1d5789, type: 3}
+      guid: a8a2fc863627f464e838ba616a1d5789
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/Terrain/Textures/Terrain/Grass_A_Normal.tif:Grass_A_Normal
+    - object: {fileID: 2100000, guid: eb523bd2fd654e74d9674bc7998f223b, type: 2}
+      guid: eb523bd2fd654e74d9674bc7998f223b
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/tv/Materials/tv_tex.mat:tv_tex
+    - object: {fileID: 8574412962073106934, guid: 130d104513b29bd44ae9c5b3915f4134, type: 2}
+      guid: 130d104513b29bd44ae9c5b3915f4134
+      assetBundlePath: Custom:UnityEngine.TerrainLayer, UnityEngine.TerrainModule:Assets/Terrain/TerrainLayers/Grass_A_TerrainLayer.terrainlayer:Grass_A_TerrainLayer
+    - object: {fileID: 2800000, guid: dbd6a9b51348b9f4f9a8ce79f75fe06c, type: 3}
+      guid: dbd6a9b51348b9f4f9a8ce79f75fe06c
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Textures/Paints/Art_004.jpg:Art_004
+    - object: {fileID: 625616553413297735, guid: 2b7c965ce965046faab61e0ccfefac3b, type: 3}
+      guid: 2b7c965ce965046faab61e0ccfefac3b
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Models/FreeRefrigerator.fbx:FreeRefrigerator_DoorSmall
+    - object: {fileID: 2800000, guid: 7e6fff2112f33d748962082012d11cce, type: 3}
+      guid: 7e6fff2112f33d748962082012d11cce
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/Terrain/Textures/Terrain/Grass_Dry_BaseColor.tif:Grass_Dry_BaseColor
+    - object: {fileID: 7213155207947421469, guid: 02bdf42aac25342d88e59b946aed3b31, type: 3}
+      guid: 02bdf42aac25342d88e59b946aed3b31
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Models/FreeCup02.fbx:FreeCup02
+    - object: {fileID: 2800000, guid: e57ad35cd6c27c74e86c21fcbf89fb13, type: 3}
+      guid: e57ad35cd6c27c74e86c21fcbf89fb13
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/SmallElectronics/Monitor/Monitor_Normal.tga:Monitor_Normal
+    - object: {fileID: 2100000, guid: 9ec04c19226b42a47a0e6b5211281de8, type: 2}
+      guid: 9ec04c19226b42a47a0e6b5211281de8
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Gas_Planet_G.mat:Gas_Planet_G
+    - object: {fileID: 2734950756802919881, guid: 2a10d5b27ea3ea04fae21bb0d081ac7f, type: 3}
+      guid: 2a10d5b27ea3ea04fae21bb0d081ac7f
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Bathroom
+        Shower.obj:Architectural_Model_008_01_Shower_03
+    - object: {fileID: 2800000, guid: bd4c61d030690814097a2076498d1c75, type: 3}
+      guid: bd4c61d030690814097a2076498d1c75
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/Terrain/Textures/Terrain/Grass_A_MaskMap.tif:Grass_A_MaskMap
+    - object: {fileID: -1120971793077124694, guid: 11cd62256b1d470f922b2c8e6446cc77, type: 3}
+      guid: 11cd62256b1d470f922b2c8e6446cc77
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/Models/XRControllerRight.fbx:TouchPad
+    - object: {fileID: 4300000, guid: a1785c07807e4aa489164840bba94f21, type: 3}
+      guid: a1785c07807e4aa489164840bba94f21
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Record_player/3dobject_FBX/plattenspieler.fbx:plattenspieler
+    - object: {fileID: 2100000, guid: 9a37ab7354c7cda45bb132d657ecf0e1, type: 2}
+      guid: 9a37ab7354c7cda45bb132d657ecf0e1
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/WaterFlow.mat:WaterFlow
+    - object: {fileID: 5083779560280695074, guid: 11cd62256b1d470f922b2c8e6446cc77, type: 3}
+      guid: 11cd62256b1d470f922b2c8e6446cc77
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/Models/XRControllerRight.fbx:Button_A
+    - object: {fileID: 2100000, guid: b47d5590d9c40ae48a8a53e70002fbc0, type: 2}
+      guid: b47d5590d9c40ae48a8a53e70002fbc0
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Speaker/Speaker.mat:Speaker
+    - object: {fileID: 2800000, guid: d110f89728d31ab42840cb0e89b7fb5d, type: 3}
+      guid: d110f89728d31ab42840cb0e89b7fb5d
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Metal/Metal_005/MetalStainlessSteelBrushedElongated005_METALNESS_3K_METALNESS.jpg:MetalStainlessSteelBrushedElongated005_METALNESS_3K_METALNESS
+    - object: {fileID: -5436708989581234303, guid: 0981cbdc714bea94496aa16ec2a12191, type: 3}
+      guid: 0981cbdc714bea94496aa16ec2a12191
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/LowPolyFoodLite/Models/KitchenProps_02.fbx:KitchenProps_02
+    - object: {fileID: 3063515011604149212, guid: b7eedd60c06e5814eaf6c2db7f3f7a89, type: 3}
+      guid: b7eedd60c06e5814eaf6c2db7f3f7a89
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Models/dummy.fbx:plume_logo
+    - object: {fileID: -2014588322676101042, guid: be3083a5f26d4e859d594ecbe632f87e, type: 3}
+      guid: be3083a5f26d4e859d594ecbe632f87e
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/Models/XRControllerLeft.fbx:ThumbStick_Base
+    - object: {fileID: -8653722315008560443, guid: 11cd62256b1d470f922b2c8e6446cc77, type: 3}
+      guid: 11cd62256b1d470f922b2c8e6446cc77
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/Models/XRControllerRight.fbx:Trigger
+    - object: {fileID: 2800000, guid: b39336e67b68db14aa4a8a7f883e5aff, type: 3}
+      guid: b39336e67b68db14aa4a8a7f883e5aff
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/Terrain/Textures/Terrain/Grass_A_BaseColor.tif:Grass_A_BaseColor
+    - object: {fileID: -4189514412694937182, guid: be3083a5f26d4e859d594ecbe632f87e, type: 3}
+      guid: be3083a5f26d4e859d594ecbe632f87e
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/Models/XRControllerLeft.fbx:Bumper
+    - object: {fileID: 2100000, guid: fa93f4c0f3f9b9740a544476bec247d4, type: 2}
+      guid: fa93f4c0f3f9b9740a544476bec247d4
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Wood_floor_corridor.mat:Wood_floor_corridor
+    - object: {fileID: 3846796280786152552, guid: 2a10d5b27ea3ea04fae21bb0d081ac7f, type: 3}
+      guid: 2a10d5b27ea3ea04fae21bb0d081ac7f
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Bathroom
+        Shower.obj:Architectural_Model_008_01_Shower_05
+    - object: {fileID: -3590175938511321419, guid: b038d5b88a4dfff459d931acc59c90f0, type: 3}
+      guid: b038d5b88a4dfff459d931acc59c90f0
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/LowPolyFoodLite/Models/KitchenProps_01.fbx:KitchenProps_01
+    - object: {fileID: 2100000, guid: 0c55d4ae09569a04e90ec2e1f9e814f9, type: 2}
+      guid: 0c55d4ae09569a04e90ec2e1f9e814f9
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/interior/Materials/glass.mat:glass
+    - object: {fileID: -7930998398131306909, guid: acce37bfef401453e92444b207aaeb59, type: 3}
+      guid: acce37bfef401453e92444b207aaeb59
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Models/FreePotBig.fbx:FreePotBigLid
+    - object: {fileID: -4498546716889745932, guid: 767732067732c4984919920f17e43be6, type: 3}
+      guid: 767732067732c4984919920f17e43be6
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Models/FreeSaltShaker.fbx:FreeSaltShaker
+    - object: {fileID: -8034149769584527654, guid: 2a10d5b27ea3ea04fae21bb0d081ac7f, type: 3}
+      guid: 2a10d5b27ea3ea04fae21bb0d081ac7f
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Bathroom
+        Shower.obj:Architectural_Model_008_01_Shower_01
+    - object: {fileID: 3962392604961349191, guid: 610c01680284fa14ba5ec40bd8690a6f, type: 3}
+      guid: 610c01680284fa14ba5ec40bd8690a6f
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/LowPolyFoodLite/Models/Plate_01.fbx:Plate_01
+    - object: {fileID: 8574412962073106934, guid: 795e383430200a14bb52726e97a0e7f4, type: 2}
+      guid: 795e383430200a14bb52726e97a0e7f4
+      assetBundlePath: Custom:UnityEngine.TerrainLayer, UnityEngine.TerrainModule:Assets/Terrain/TerrainLayers/Heather_TerrainLayer.terrainlayer:Heather_TerrainLayer
+    - object: {fileID: 7576386722563338562, guid: 45a633a654f087348969213b69ae7f48, type: 3}
+      guid: 45a633a654f087348969213b69ae7f48
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/deskchair.fbx:plastic
+    - object: {fileID: 4444728127320036556, guid: b7eedd60c06e5814eaf6c2db7f3f7a89, type: 3}
+      guid: b7eedd60c06e5814eaf6c2db7f3f7a89
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Models/dummy.fbx:Icosphere.002
+    - object: {fileID: -4815116114366278498, guid: afaeced10297a41728c31de1b878c4a1, type: 3}
+      guid: afaeced10297a41728c31de1b878c4a1
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Models/FreeShelf.fbx:FreeShelf
+    - object: {fileID: 2800000, guid: b8fcbf3ebf5b46f44948ddc8a2231075, type: 3}
+      guid: b8fcbf3ebf5b46f44948ddc8a2231075
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Textures/water
+        flow.jpg:water flow
+    - object: {fileID: -5220349573086354338, guid: 8ffb275573c34394fa826e1dec8e6452, type: 3}
+      guid: 8ffb275573c34394fa826e1dec8e6452
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/SmallElectronics/Keyboard
+        & Mouse/Keyboard.fbx:MAT_Keyboard
+    - object: {fileID: 2800000, guid: 7336373d6d8924e35befbb2c0278d2d1, type: 3}
+      guid: 7336373d6d8924e35befbb2c0278d2d1
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Textures/Version01/FreeEquipment01Material_MetallicSmoothness.png:FreeEquipment01Material_MetallicSmoothness
+    - object: {fileID: 2800000, guid: c3fcb646c345144058b00fff595eddd7, type: 3}
+      guid: c3fcb646c345144058b00fff595eddd7
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Textures/Version01/FreeRefrigeratorMaterial_Normal.png:FreeRefrigeratorMaterial_Normal
+    - object: {fileID: 2100000, guid: 0b7f1bd720f2264418ac712c6dfffc2f, type: 2}
+      guid: 0b7f1bd720f2264418ac712c6dfffc2f
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Cushion001.mat:Cushion001
+    - object: {fileID: 4300004, guid: a1785c07807e4aa489164840bba94f21, type: 3}
+      guid: a1785c07807e4aa489164840bba94f21
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Record_player/3dobject_FBX/plattenspieler.fbx:arm
+    - object: {fileID: 2800000, guid: 9c887b0f95b6efd47a20ad02fcaba328, type: 3}
+      guid: 9c887b0f95b6efd47a20ad02fcaba328
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Plaster/Plaster001_2K_Normal.jpg:Plaster001_2K_Normal
+    - object: {fileID: 2100000, guid: 36421afd149ec90429210713b1fdff24, type: 2}
+      guid: 36421afd149ec90429210713b1fdff24
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Tiles_052.mat:Tiles_052
+    - object: {fileID: 2100000, guid: d04b0b92a9f0def4f8574428cfb6cb0e, type: 2}
+      guid: d04b0b92a9f0def4f8574428cfb6cb0e
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/tile_1_AlbedoTransparency.mat:tile_1_AlbedoTransparency
+    - object: {fileID: 3972697219173631493, guid: acce37bfef401453e92444b207aaeb59, type: 3}
+      guid: acce37bfef401453e92444b207aaeb59
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Models/FreePotBig.fbx:FreePotBig
+    - object: {fileID: -6761781090853816824, guid: 9539b6d6956c84ce9aa440302716cc1f, type: 3}
+      guid: 9539b6d6956c84ce9aa440302716cc1f
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Models/FreeCabinet01_DoorRight.fbx:FreeCabinet01_DoorRight
+    - object: {fileID: -8454260694687740808, guid: ed6105ec8aa2a4c9282c15aa8f7e91e4, type: 3}
+      guid: ed6105ec8aa2a4c9282c15aa8f7e91e4
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Models/FreeVase.fbx:FreeVase
+    - object: {fileID: -8653722315008560443, guid: be3083a5f26d4e859d594ecbe632f87e, type: 3}
+      guid: be3083a5f26d4e859d594ecbe632f87e
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/Models/XRControllerLeft.fbx:Trigger
+    - object: {fileID: -1354631672181299356, guid: da710866c27b3ac44b4893c9463856c4, type: 3}
+      guid: da710866c27b3ac44b4893c9463856c4
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/LowPolyFoodLite/Models/Cookie.fbx:Cookie
+    - object: {fileID: 2800000, guid: 46a2fdb8dc0a3cd41bc9478d817c3005, type: 3}
+      guid: 46a2fdb8dc0a3cd41bc9478d817c3005
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Paintings/cat
+        retro futurism.jpg:cat retro futurism
+    - object: {fileID: 2100000, guid: eaab6f581d2d46b45884061b579f4064, type: 2}
+      guid: eaab6f581d2d46b45884061b579f4064
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Record_player/Materials/plattenspieler-kunststoff.mat:plattenspieler-kunststoff
+    - object: {fileID: -8089699231438940418, guid: de316bf94a202ce41ac37371aac8b564, type: 3}
+      guid: de316bf94a202ce41ac37371aac8b564
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/Paints/Painting-004.fbx:Mesh1
+    - object: {fileID: 2100000, guid: 8d29396c244e3574c9d538d60b1f186b, type: 2}
+      guid: 8d29396c244e3574c9d538d60b1f186b
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/plastic_white.mat:plastic_white
+    - object: {fileID: 8449303727733987256, guid: be3083a5f26d4e859d594ecbe632f87e, type: 3}
+      guid: be3083a5f26d4e859d594ecbe632f87e
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/Models/XRControllerLeft.fbx:Button_B
+    - object: {fileID: 2800000, guid: 581a615c3888c1a4da155890a91384c0, type: 3}
+      guid: 581a615c3888c1a4da155890a91384c0
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Metal/Metal_005/MetalStainlessSteelBrushedElongated005_COL_3K_METALNESS.jpg:MetalStainlessSteelBrushedElongated005_COL_3K_METALNESS
+    - object: {fileID: 6972639530819350904, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        LeftHand Locomotion/Move
+    - object: {fileID: -3840382769004538819, guid: b7eedd60c06e5814eaf6c2db7f3f7a89, type: 3}
+      guid: b7eedd60c06e5814eaf6c2db7f3f7a89
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Models/dummy.fbx:Marks
+    - object: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+      guid: 64638c7554424b8ea258bf0f49350433
+      assetBundlePath: Builtin:UnityEngine.Material, UnityEngine.CoreModule:Resources/unity_builtin_extra:Default-Terrain-Standard
+    - object: {fileID: 6788383922943872000, guid: ab3a79eba4de4be0ad5fead9fb858190, type: 3}
+      guid: ab3a79eba4de4be0ad5fead9fb858190
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/Models/Primitive_Wedge.fbx:pCube8
+    - object: {fileID: 2800000, guid: 40df0fe6319f30d4c96d14a449d0e3fa, type: 3}
+      guid: 40df0fe6319f30d4c96d14a449d0e3fa
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/printer/printer.png:printer
+    - object: {fileID: 1710496862950694759, guid: 2a10d5b27ea3ea04fae21bb0d081ac7f, type: 3}
+      guid: 2a10d5b27ea3ea04fae21bb0d081ac7f
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Bathroom
+        Shower.obj:Architectural_Model_008_01_Shower_06
+    - object: {fileID: 2100000, guid: 62b9e766ed75e084f8db779957b9b960, type: 2}
+      guid: 62b9e766ed75e084f8db779957b9b960
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/FREE
+        Food Pack/Materials/Food.mat:Food
+    - object: {fileID: -4189514412694937182, guid: 11cd62256b1d470f922b2c8e6446cc77, type: 3}
+      guid: 11cd62256b1d470f922b2c8e6446cc77
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/Models/XRControllerRight.fbx:Bumper
+    - object: {fileID: -8839729996792214397, guid: 2a10d5b27ea3ea04fae21bb0d081ac7f, type: 3}
+      guid: 2a10d5b27ea3ea04fae21bb0d081ac7f
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Bathroom
+        Shower.obj:Architectural_Model_008_01_Shower_02
+    - object: {fileID: 5680206659387950220, guid: 2a10d5b27ea3ea04fae21bb0d081ac7f, type: 3}
+      guid: 2a10d5b27ea3ea04fae21bb0d081ac7f
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Bathroom
+        Shower.obj:Architectural_Model_008_01_Shower_00
+    - object: {fileID: 2800000, guid: 0dc2c58b1f1504c1eb349d8060e2b079, type: 3}
+      guid: 0dc2c58b1f1504c1eb349d8060e2b079
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Textures/Version01/FreeEquipment02Material_AO.png:FreeEquipment02Material_AO
+    - object: {fileID: -8089699231438940418, guid: d3efe2737c200cf4685ae22e00d72e24, type: 3}
+      guid: d3efe2737c200cf4685ae22e00d72e24
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/Paints/Painting-006.fbx:Mesh1
+    - object: {fileID: 4300002, guid: a1785c07807e4aa489164840bba94f21, type: 3}
+      guid: a1785c07807e4aa489164840bba94f21
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Record_player/3dobject_FBX/plattenspieler.fbx:teller
+    - object: {fileID: 2800000, guid: 2acedc4d5771a45bea6c63520bb0bfb3, type: 3}
+      guid: 2acedc4d5771a45bea6c63520bb0bfb3
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Textures/Version01/FreeEquipment02Material_Normal.png:FreeEquipment02Material_Normal
+    - object: {fileID: 7814301967758837358, guid: b7eedd60c06e5814eaf6c2db7f3f7a89, type: 3}
+      guid: b7eedd60c06e5814eaf6c2db7f3f7a89
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Models/dummy.fbx:Icosphere.005
+    - object: {fileID: -8089699231438940418, guid: 8ebc580f5722eb24e85c58e81eccb5a6, type: 3}
+      guid: 8ebc580f5722eb24e85c58e81eccb5a6
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/Paints/Painting-003.fbx:Mesh1
+    - object: {fileID: 2800000, guid: 0fd0510f6c3a37644b1e6d7ff6da3a55, type: 3}
+      guid: 0fd0510f6c3a37644b1e6d7ff6da3a55
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Floor/Plastic_006/Plastic006_2K_Normal.jpg:Plastic006_2K_Normal
+    - object: {fileID: -8429650256770907399, guid: 11cd62256b1d470f922b2c8e6446cc77, type: 3}
+      guid: 11cd62256b1d470f922b2c8e6446cc77
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/Models/XRControllerRight.fbx:Button_Home
+    - object: {fileID: 3575342155813788163, guid: 2b7c965ce965046faab61e0ccfefac3b, type: 3}
+      guid: 2b7c965ce965046faab61e0ccfefac3b
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Models/FreeRefrigerator.fbx:FreeRefrigerator_DoorBig
+    - object: {fileID: -5072188773914483968, guid: 22d2bd714a0733d4198237dead6c50f9, type: 3}
+      guid: 22d2bd714a0733d4198237dead6c50f9
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/SmallElectronics/Monitor/Monitor.fbx:Monitor
+    - object: {fileID: 22788929071467060, guid: 11cd62256b1d470f922b2c8e6446cc77, type: 3}
+      guid: 11cd62256b1d470f922b2c8e6446cc77
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/Models/XRControllerRight.fbx:Controller_Base
+    - object: {fileID: 6510839796755108485, guid: 5a860cf6d43581e43870f56889bf5f7b, type: 3}
+      guid: 5a860cf6d43581e43870f56889bf5f7b
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/LowPolyFoodLite/Models/Bread.fbx:Bread
+    - object: {fileID: 2800000, guid: 344cd8da467710740b352bbd16d8a0b7, type: 3}
+      guid: 344cd8da467710740b352bbd16d8a0b7
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Textures/tile_Normal.png:tile_Normal
+    - object: {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+      guid: b23a5dd3bf57433fbb47099f9a648fc7
+      assetBundlePath: Builtin:UnityEngine.Material, UnityEngine.CoreModule:Library/unity
+        default resources:Font Material
+    - object: {fileID: -6915272511953747994, guid: 5c43bcb09f59398438fe6564b1da6e84, type: 3}
+      guid: 5c43bcb09f59398438fe6564b1da6e84
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/SmallElectronics/Keyboard
+        & Mouse/Mouse.fbx:Mouse
+    - object: {fileID: 601653658990731805, guid: ebf25730584934c188355eb62ca72e7b, type: 3}
+      guid: ebf25730584934c188355eb62ca72e7b
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Models/FreeSpoon.fbx:FreeSpoon
+    - object: {fileID: 2100000, guid: 5176618ababa0495dad659243f1cbbe1, type: 2}
+      guid: 5176618ababa0495dad659243f1cbbe1
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Materials/Version01/FreeCabinet02_Material.mat:FreeCabinet02_Material
+    - object: {fileID: -1016011637710242029, guid: 5e87ddfd4564feb4689769f649055178, type: 3}
+      guid: 5e87ddfd4564feb4689769f649055178
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/LowPolyFoodLite/Models/CoffeCup.fbx:CoffeCup
+    - object: {fileID: -327218276259777663, guid: 8ffb275573c34394fa826e1dec8e6452, type: 3}
+      guid: 8ffb275573c34394fa826e1dec8e6452
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/SmallElectronics/Keyboard
+        & Mouse/Keyboard.fbx:Keyboard
+    - object: {fileID: -2014588322676101042, guid: 11cd62256b1d470f922b2c8e6446cc77, type: 3}
+      guid: 11cd62256b1d470f922b2c8e6446cc77
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/Models/XRControllerRight.fbx:ThumbStick_Base
+    - object: {fileID: -1120971793077124694, guid: be3083a5f26d4e859d594ecbe632f87e, type: 3}
+      guid: be3083a5f26d4e859d594ecbe632f87e
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/Models/XRControllerLeft.fbx:TouchPad
+    - object: {fileID: 2800000, guid: a3944b29e84375a4fa62af23050bd093, type: 3}
+      guid: a3944b29e84375a4fa62af23050bd093
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/SmallElectronics/Keyboard
+        & Mouse/Tex/Keyboard_Normal.tga:Keyboard_Normal
+    - object: {fileID: -1523209072572346831, guid: dfa479f5f208b4bb4ae3ecf2345b1710, type: 3}
+      guid: dfa479f5f208b4bb4ae3ecf2345b1710
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Models/FreeLamp.fbx:FreeLamp
+    - object: {fileID: 1865056248366311061, guid: f077c919501a44778a0c2edb6eb1a54a, type: 3}
+      guid: f077c919501a44778a0c2edb6eb1a54a
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/Models/Primitive_Torus.fbx:pTorus1
+    - object: {fileID: 4300040, guid: 9bde7338ed7c8a141b7a2e71c75febbe, type: 3}
+      guid: 9bde7338ed7c8a141b7a2e71c75febbe
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Meshes/Decorative plants.obj:Triangle_cover
+    - object: {fileID: 465779411868885503, guid: 665d38aa7cbdb44158a5b4b71567bb13, type: 3}
+      guid: 665d38aa7cbdb44158a5b4b71567bb13
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Models/FreeCabinet01_DoorLeft.fbx:FreeCabinet01_DoorLeft
+    - object: {fileID: 2800000, guid: d0290828450b14799b80a589dad3cd03, type: 3}
+      guid: d0290828450b14799b80a589dad3cd03
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Textures/Version01/FreeEquipment01Material_AO.png:FreeEquipment01Material_AO
+    - object: {fileID: 2800000, guid: c128886fad72fac43a77cc0c7115ffd8, type: 3}
+      guid: c128886fad72fac43a77cc0c7115ffd8
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/SmallElectronics/Monitor/Monitor_Albedo.tga:Monitor_Albedo
+    - object: {fileID: 4300022, guid: 9bde7338ed7c8a141b7a2e71c75febbe, type: 3}
+      guid: 9bde7338ed7c8a141b7a2e71c75febbe
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Meshes/Decorative plants.obj:Cylinder_pot
+    - object: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+      guid: f7326e3d865a46f6b7e1340acd0e3c51
+      assetBundlePath: Builtin:UnityEngine.Mesh, UnityEngine.CoreModule:Library/unity
+        default resources:Cylinder
+    - object: {fileID: 4300006, guid: 766f744b037571640a4eeca80f2ccf48, type: 3}
+      guid: 766f744b037571640a4eeca80f2ccf48
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/ATLAS/Customizable
+        Kitchen Pack/Models/Sink_Double.fbx:Sink002:Left_Knob
+    - object: {fileID: 2100000, guid: 382373e0c88528f44aea147102431319, type: 2}
+      guid: 382373e0c88528f44aea147102431319
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Plastic_006.mat:Plastic_006
+    - object: {fileID: -4783639238940030047, guid: 0ce7e0f25153c1c4ab06af1f5f3cbdf6, type: 3}
+      guid: 0ce7e0f25153c1c4ab06af1f5f3cbdf6
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/closet.fbx:Group_021
+    - object: {fileID: 4300008, guid: 9bde7338ed7c8a141b7a2e71c75febbe, type: 3}
+      guid: 9bde7338ed7c8a141b7a2e71c75febbe
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Meshes/Decorative plants.obj:Cross_pot
+    - object: {fileID: 4300002, guid: 9bde7338ed7c8a141b7a2e71c75febbe, type: 3}
+      guid: 9bde7338ed7c8a141b7a2e71c75febbe
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Meshes/Decorative plants.obj:Cross_cover
+    - object: {fileID: 4300000, guid: 9bde7338ed7c8a141b7a2e71c75febbe, type: 3}
+      guid: 9bde7338ed7c8a141b7a2e71c75febbe
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Meshes/Decorative plants.obj:Cross_bamboo
+    - object: {fileID: -757969660878346733, guid: 0ce7e0f25153c1c4ab06af1f5f3cbdf6, type: 3}
+      guid: 0ce7e0f25153c1c4ab06af1f5f3cbdf6
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/closet.fbx:Group_002
+    - object: {fileID: 4300020, guid: 9bde7338ed7c8a141b7a2e71c75febbe, type: 3}
+      guid: 9bde7338ed7c8a141b7a2e71c75febbe
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Meshes/Decorative plants.obj:Cylinder_cover
+    - object: {fileID: -5020263180661586886, guid: 8ebc580f5722eb24e85c58e81eccb5a6, type: 3}
+      guid: 8ebc580f5722eb24e85c58e81eccb5a6
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/Paints/Painting-003.fbx:Art_003
+    - object: {fileID: 4300042, guid: 9bde7338ed7c8a141b7a2e71c75febbe, type: 3}
+      guid: 9bde7338ed7c8a141b7a2e71c75febbe
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Meshes/Decorative plants.obj:Triangle_pot
+    - object: {fileID: 4318227596414318398, guid: 0ce7e0f25153c1c4ab06af1f5f3cbdf6, type: 3}
+      guid: 0ce7e0f25153c1c4ab06af1f5f3cbdf6
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/closet.fbx:Group_015
+    - object: {fileID: 3340957000141638778, guid: 20fc9c5e71adb0443bff79e76235884b, type: 3}
+      guid: 20fc9c5e71adb0443bff79e76235884b
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/LowPolyFoodLite/Models/Donut_01.fbx:Donut_01
+    - object: {fileID: 2100000, guid: a6bf7b6b51b1d2e418adbdd9c6e75a03, type: 2}
+      guid: a6bf7b6b51b1d2e418adbdd9c6e75a03
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Wall_Anthracite.mat:Wall_Anthracite
+    - object: {fileID: 5083779560280695074, guid: be3083a5f26d4e859d594ecbe632f87e, type: 3}
+      guid: be3083a5f26d4e859d594ecbe632f87e
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/Models/XRControllerLeft.fbx:Button_A
+    - object: {fileID: -1191649087210497217, guid: 0ce7e0f25153c1c4ab06af1f5f3cbdf6, type: 3}
+      guid: 0ce7e0f25153c1c4ab06af1f5f3cbdf6
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/closet.fbx:Group_017
+    - object: {fileID: 4300028, guid: 9bde7338ed7c8a141b7a2e71c75febbe, type: 3}
+      guid: 9bde7338ed7c8a141b7a2e71c75febbe
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Meshes/Decorative plants.obj:Spheres_cover
+    - object: {fileID: 4300004, guid: 766f744b037571640a4eeca80f2ccf48, type: 3}
+      guid: 766f744b037571640a4eeca80f2ccf48
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/ATLAS/Customizable
+        Kitchen Pack/Models/Sink_Double.fbx:Sink002:Right_Knob
+    - object: {fileID: -2564423107879867638, guid: be3083a5f26d4e859d594ecbe632f87e, type: 3}
+      guid: be3083a5f26d4e859d594ecbe632f87e
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/Models/XRControllerLeft.fbx:ThumbStick
+    - object: {fileID: 5106606867137482393, guid: 0ce7e0f25153c1c4ab06af1f5f3cbdf6, type: 3}
+      guid: 0ce7e0f25153c1c4ab06af1f5f3cbdf6
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/closet.fbx:Group_019
+    - object: {fileID: 4300050, guid: 9bde7338ed7c8a141b7a2e71c75febbe, type: 3}
+      guid: 9bde7338ed7c8a141b7a2e71c75febbe
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Meshes/Decorative plants.obj:Shrub
+    - object: {fileID: -4030274792725830237, guid: 0ce7e0f25153c1c4ab06af1f5f3cbdf6, type: 3}
+      guid: 0ce7e0f25153c1c4ab06af1f5f3cbdf6
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/closet.fbx:Component#8_005
+    - object: {fileID: 4300030, guid: 9bde7338ed7c8a141b7a2e71c75febbe, type: 3}
+      guid: 9bde7338ed7c8a141b7a2e71c75febbe
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Meshes/Decorative plants.obj:Spheres_pot
+    - object: {fileID: 4300046, guid: 9bde7338ed7c8a141b7a2e71c75febbe, type: 3}
+      guid: 9bde7338ed7c8a141b7a2e71c75febbe
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Meshes/Decorative plants.obj:Palm
+    - object: {fileID: 3503510461996500204, guid: 2a10d5b27ea3ea04fae21bb0d081ac7f, type: 3}
+      guid: 2a10d5b27ea3ea04fae21bb0d081ac7f
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Bathroom
+        Shower.obj:Architectural_Model_008_01_Shower_04
+    - object: {fileID: 2100000, guid: 8a26a12936bd76144832d5c7d0addded, type: 2}
+      guid: 8a26a12936bd76144832d5c7d0addded
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Metal_032.mat:Metal_032
+    - object: {fileID: 2800000, guid: ba24eeac06a2bbb4a8c96a9324b1a2db, type: 3}
+      guid: ba24eeac06a2bbb4a8c96a9324b1a2db
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Textures/Paints/Art_003.jpg:Art_003
+    - object: {fileID: 2441626303443182246, guid: d99dbb388f382f741a2c25257027c782, type: 3}
+      guid: d99dbb388f382f741a2c25257027c782
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/SmallElectronics/Remote
+        Control/Remote_control.fbx:Remote Control
+    - object: {fileID: 2100000, guid: c70fb1684b8a3cc48aee7d9e4c03dd76, type: 2}
+      guid: c70fb1684b8a3cc48aee7d9e4c03dd76
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Fabric036_blue.mat:Fabric036_blue
+    - object: {fileID: -1301026884127317811, guid: 0ce7e0f25153c1c4ab06af1f5f3cbdf6, type: 3}
+      guid: 0ce7e0f25153c1c4ab06af1f5f3cbdf6
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/closet.fbx:Group_003
+    - object: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+      guid: 7df559d2b2e34f979b7ebe6bbc2c3e64
+      assetBundlePath: Builtin:UnityEngine.Mesh, UnityEngine.CoreModule:Library/unity
+        default resources:Cube
+    - object: {fileID: 4300000, guid: 23e5f126029186c47a301cb4c506b280, type: 3}
+      guid: 23e5f126029186c47a301cb4c506b280
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/tv/tv1.FBX:Box001
+    - object: {fileID: 3943112667636338823, guid: ac039d90cb5844685919504da1ddf727, type: 3}
+      guid: ac039d90cb5844685919504da1ddf727
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Models/FreeCabinet02_DrawerSmall.fbx:FreeCabinet02_DrawerSmall
+    - object: {fileID: -6956048135646167668, guid: b2e75a5c43b7dd8439d6fc5fe5218c46, type: 3}
+      guid: b2e75a5c43b7dd8439d6fc5fe5218c46
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/fbxPainting.fbx:Painting
+    - object: {fileID: 2800000, guid: bee0f7e2c87491d4796af34b41a86f02, type: 3}
+      guid: bee0f7e2c87491d4796af34b41a86f02
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Speaker/DefaultMaterial_albedo.jpg:DefaultMaterial_albedo
+    - object: {fileID: 4300000, guid: 766f744b037571640a4eeca80f2ccf48, type: 3}
+      guid: 766f744b037571640a4eeca80f2ccf48
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/ATLAS/Customizable
+        Kitchen Pack/Models/Sink_Double.fbx:Sink002:Counter
+    - object: {fileID: -1400170588960665701, guid: 673d5702877994d0493b648ed35b6326, type: 3}
+      guid: 673d5702877994d0493b648ed35b6326
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Models/FreeExtractorHood.fbx:FreeExtractorHood
+    - object: {fileID: 4300000, guid: 969eb4abe6d1b45419ec39cf5c03547e, type: 3}
+      guid: 969eb4abe6d1b45419ec39cf5c03547e
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Bath/Mesh/Curtain.fbx:BathCurtainUnity
+    - object: {fileID: 4300000, guid: 1d2ed3c151f92f14384ad32733342672, type: 3}
+      guid: 1d2ed3c151f92f14384ad32733342672
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/FREE
+        Food Pack/Mesh/Saucisson.fbx:Saucisson
+    - object: {fileID: 4300000, guid: a9fd94e854d56644fac83680bf9cc885, type: 3}
+      guid: a9fd94e854d56644fac83680bf9cc885
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Bath/Mesh/Bath.fbx:BathUnity
+    - object: {fileID: 5756272746158339243, guid: 45a633a654f087348969213b69ae7f48, type: 3}
+      guid: 45a633a654f087348969213b69ae7f48
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/deskchair.fbx:desk
+        chair.001
+    - object: {fileID: 8449303727733987256, guid: 11cd62256b1d470f922b2c8e6446cc77, type: 3}
+      guid: 11cd62256b1d470f922b2c8e6446cc77
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/Models/XRControllerRight.fbx:Button_B
+    - object: {fileID: -3152136159152479066, guid: 0ce7e0f25153c1c4ab06af1f5f3cbdf6, type: 3}
+      guid: 0ce7e0f25153c1c4ab06af1f5f3cbdf6
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/closet.fbx:Component#8_003
+    - object: {fileID: 4300000, guid: 519ae9f5da7474143a7b1cbf5d04abae, type: 2}
+      guid: 519ae9f5da7474143a7b1cbf5d04abae
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Models/easter_egg.mesh:easter_egg
+    - object: {fileID: 2100000, guid: e1b554e26a530ca4ab84f2005b41fcd6, type: 2}
+      guid: e1b554e26a530ca4ab84f2005b41fcd6
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Materials/Plaster.mat:Plaster
+    - object: {fileID: -5605444887600591945, guid: de316bf94a202ce41ac37371aac8b564, type: 3}
+      guid: de316bf94a202ce41ac37371aac8b564
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/Paints/Painting-004.fbx:Art_004
+    - object: {fileID: 2100000, guid: af65c0942482e46aeb256506726ff0f7, type: 2}
+      guid: af65c0942482e46aeb256506726ff0f7
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/Darth_Artisan/Free_Trees/Meshes/Materials/Free_Tree.mat:Free_Tree
+    - object: {fileID: 8574412962073106934, guid: 0cbb01b61ed524a48a119d81aa262fed, type: 2}
+      guid: 0cbb01b61ed524a48a119d81aa262fed
+      assetBundlePath: Custom:UnityEngine.TerrainLayer, UnityEngine.TerrainModule:Assets/Terrain/TerrainLayers/Grass_Dry_TerrainLayer.terrainlayer:Grass_Dry_TerrainLayer
+    - object: {fileID: 2800000, guid: 9c7ce770f660928419cf4efad954e2e8, type: 3}
+      guid: 9c7ce770f660928419cf4efad954e2e8
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Textures/tile_MetallicSmoothness.png:tile_MetallicSmoothness
+    - object: {fileID: 2800000, guid: 93a3c92dca7388a4baa5fef2e28efdce, type: 3}
+      guid: 93a3c92dca7388a4baa5fef2e28efdce
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Textures/Shrub diffuse.tga:Shrub diffuse
+    - object: {fileID: 2800000, guid: 3b6ada439712eb24d99b48c5e521ef30, type: 3}
+      guid: 3b6ada439712eb24d99b48c5e521ef30
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Tiles/Tiles_040/Tiles040_2K_Roughness.png:Tiles040_2K_Roughness
+    - object: {fileID: -6611571400130246888, guid: 2b7c965ce965046faab61e0ccfefac3b, type: 3}
+      guid: 2b7c965ce965046faab61e0ccfefac3b
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Models/FreeRefrigerator.fbx:FreeRefrigerator
+    - object: {fileID: 8300000, guid: e926fa1cdfabe374c9b6e03b471684cb, type: 3}
+      guid: e926fa1cdfabe374c9b6e03b471684cb
+      assetBundlePath: Custom:UnityEngine.AudioClip, UnityEngine.AudioModule:Assets/Sounds/Normal/Outside/Forest
+        Day.wav:Forest Day
+    - object: {fileID: 2800000, guid: 54e182a1f5aba48d39405846845c6ed1, type: 3}
+      guid: 54e182a1f5aba48d39405846845c6ed1
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet03_Material_Normal.png:FreeCabinet03_Material_Normal
+    - object: {fileID: 4067081735716088782, guid: d1c98a9ae66fa4a35818bf0bdc74e7eb, type: 3}
+      guid: d1c98a9ae66fa4a35818bf0bdc74e7eb
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Models/FreeCabinet03_DrawerBig.fbx:FreeCabinet03_DrawerBig
+    - object: {fileID: 4300054, guid: 9bde7338ed7c8a141b7a2e71c75febbe, type: 3}
+      guid: 9bde7338ed7c8a141b7a2e71c75febbe
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Decorative
+        plants/Meshes/Decorative plants.obj:Cyl_Sph_Sqr_Bamboo
+    - object: {fileID: 2377290, guid: 19682540d8a014522a319b1cf788aee2, type: 3}
+      guid: 19682540d8a014522a319b1cf788aee2
+      assetBundlePath: Custom:UnityEngine.MeshRenderer, UnityEngine.CoreModule:Assets/External/Darth_Artisan/Free_Trees/Prefabs/Fir_Tree.prefab:Fir_Tree
+    - object: {fileID: 2315274950560864275, guid: 4dfd50a1f648e984f8188be70774f281, type: 3}
+      guid: 4dfd50a1f648e984f8188be70774f281
+      assetBundlePath: Custom:UnityEngine.MeshRenderer, UnityEngine.CoreModule:Assets/Terrain/Prefabs/Grass_D.prefab:Grass_D
+    - object: {fileID: 4300008, guid: 766f744b037571640a4eeca80f2ccf48, type: 3}
+      guid: 766f744b037571640a4eeca80f2ccf48
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/ATLAS/Customizable
+        Kitchen Pack/Models/Sink_Double.fbx:Sink002:Faucet
+    - object: {fileID: 5443344685879028270, guid: 4dfd50a1f648e984f8188be70774f281, type: 3}
+      guid: 4dfd50a1f648e984f8188be70774f281
+      assetBundlePath: Custom:UnityEngine.GameObject, UnityEngine.CoreModule:Assets/Terrain/Prefabs/Grass_D.prefab:Grass_D
+    - object: {fileID: 2800000, guid: fed2f7aad0460e2419666413486511d5, type: 3}
+      guid: fed2f7aad0460e2419666413486511d5
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Speaker/DefaultMaterial_normal.png:DefaultMaterial_normal
+    - object: {fileID: 4300000, guid: 19f143b42fa533b4f8eafc373bd587d7, type: 3}
+      guid: 19f143b42fa533b4f8eafc373bd587d7
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/FREE
+        Food Pack/Mesh/Egg.fbx:Egg
+    - object: {fileID: 2800000, guid: fb64186d8bbed3142aec1c52b04f06e9, type: 3}
+      guid: fb64186d8bbed3142aec1c52b04f06e9
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Textures/cherry-wood-D.jpg:cherry-wood-D
+    - object: {fileID: 4300000, guid: 2ed673108d59e3b4b907947d50be6c49, type: 3}
+      guid: 2ed673108d59e3b4b907947d50be6c49
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/FREE
+        Food Pack/Mesh/Steak_Uncooked.fbx:Steak_Uncooked
+    - object: {fileID: 6006143915910037280, guid: 965726bb3b2db4202a03b91e27528d39, type: 3}
+      guid: 965726bb3b2db4202a03b91e27528d39
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Models/FreeCabinet03.fbx:FreeCabinet03
+    - object: {fileID: -6489980540314340829, guid: 51857641a0e87f64aba6883249b5febd, type: 3}
+      guid: 51857641a0e87f64aba6883249b5febd
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/DoorPanel.fbx:Door_Panel001
+    - object: {fileID: 4300000, guid: 310f9adb29639fa4f926ddbb52461942, type: 3}
+      guid: 310f9adb29639fa4f926ddbb52461942
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/FREE
+        Food Pack/Mesh/Chicken.fbx:Chicken
+    - object: {fileID: 2800000, guid: 082a0bc01d852d3419686a286c0c7a6a, type: 3}
+      guid: 082a0bc01d852d3419686a286c0c7a6a
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Materials/Fabric/Fabric_031/Fabric031_2K_Color.jpg:Fabric031_2K_Color
+    - object: {fileID: 4300000, guid: b35c815c74fb6884f9bb74089e03072e, type: 3}
+      guid: b35c815c74fb6884f9bb74089e03072e
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/FREE
+        Food Pack/Mesh/Chili.fbx:Chili
+    - object: {fileID: 4300000, guid: 82731c4f4b197fb49a6a473836aefbb7, type: 3}
+      guid: 82731c4f4b197fb49a6a473836aefbb7
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/FREE
+        Food Pack/Mesh/Pineapple.fbx:Pineapple
+    - object: {fileID: -3198876749418997356, guid: 0ce7e0f25153c1c4ab06af1f5f3cbdf6, type: 3}
+      guid: 0ce7e0f25153c1c4ab06af1f5f3cbdf6
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Meshes/closet.fbx:Group_014
+    - object: {fileID: 4300000, guid: d7ad634caa1c049d49b730cc6d29c683, type: 3}
+      guid: d7ad634caa1c049d49b730cc6d29c683
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/Darth_Artisan/Free_Trees/Meshes/Fir_Tree.fbx:Fir-tree
+    - object: {fileID: 3547273401643579619, guid: 22d2bd714a0733d4198237dead6c50f9, type: 3}
+      guid: 22d2bd714a0733d4198237dead6c50f9
+      assetBundlePath: Custom:UnityEngine.Material, UnityEngine.CoreModule:Assets/External/SmallElectronics/Monitor/Monitor.fbx:MAT_Monitor
+    - object: {fileID: 2800000, guid: 7f7e6c25bc64a5a49a69a5d21012a6af, type: 3}
+      guid: 7f7e6c25bc64a5a49a69a5d21012a6af
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Textures/Desk/woodside.jpg:woodside
+    - object: {fileID: 10103, guid: 0000000000000000e000000000000000, type: 0}
+      guid: 837bfdef9f8c4e4a93540ebf263ac14d
+      assetBundlePath: Builtin:UnityEngine.Texture2D, UnityEngine.CoreModule:Library/unity
+        default resources:Font Texture
+    - object: {fileID: 4300002, guid: 56be052822e0d8d459a1d331a09d5f8a, type: 3}
+      guid: 56be052822e0d8d459a1d331a09d5f8a
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/FREE
+        Food Pack/Mesh/Onion.fbx:Onion
+    - object: {fileID: 4300000, guid: 85052aef855bc694a93fc31e0a43e872, type: 2}
+      guid: 85052aef855bc694a93fc31e0a43e872
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/External/_SNAPS_PrototypingAssets/APAC_Residential/Prefabs/Props/Chair/Meshes/Chair_A_snaps004.asset:Chair_A_snaps004
+    - object: {fileID: 2800000, guid: c57d77212ac27f7408bb402e9a9182f6, type: 3}
+      guid: c57d77212ac27f7408bb402e9a9182f6
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/RevBedHouse/Assets/Textures/Paints/Art_006.jpg:Art_006
+    - object: {fileID: 2800000, guid: 8ac3feffa89a9674287e35e4dc06f297, type: 3}
+      guid: 8ac3feffa89a9674287e35e4dc06f297
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/tv/tv_tex.tga:tv_tex
+    - object: {fileID: 2800000, guid: 7ec4ae3dec7b643fd878ab2706a16c1a, type: 3}
+      guid: 7ec4ae3dec7b643fd878ab2706a16c1a
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Textures/Version01/FreeStoveMaterial_AO.png:FreeStoveMaterial_AO
+    - object: {fileID: 2800000, guid: a41d681a8576bf34391a8d61dc02e898, type: 3}
+      guid: a41d681a8576bf34391a8d61dc02e898
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/tv/tv_tex_normal.png:tv_tex_normal
+    - object: {fileID: -2564423107879867638, guid: 11cd62256b1d470f922b2c8e6446cc77, type: 3}
+      guid: 11cd62256b1d470f922b2c8e6446cc77
+      assetBundlePath: Custom:UnityEngine.Mesh, UnityEngine.CoreModule:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/Models/XRControllerRight.fbx:ThumbStick
+    - object: {fileID: 2800000, guid: 526c0ba64bdac4c35a061eecd44eb0be, type: 3}
+      guid: 526c0ba64bdac4c35a061eecd44eb0be
+      assetBundlePath: Custom:UnityEngine.Texture2D, UnityEngine.CoreModule:Assets/External/Free_Kitchen/FreeKitchen/Textures/Version01/FreeCabinet02_Material_AO.png:FreeCabinet02_Material_AO
+    - object: {fileID: 8300000, guid: 5e0768c3cd192a348a22f296fe82298a, type: 3}
+      guid: 5e0768c3cd192a348a22f296fe82298a
+      assetBundlePath: Custom:UnityEngine.AudioClip, UnityEngine.AudioModule:Assets/Sounds/No
+        Copyright Strike Music  Free Piano Jazz Soft Background Music.mp3:No Copyright
+        Strike Music  Free Piano Jazz Soft Background Music
+    - object: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+      guid: a3c2fe4198ab4e0c843439faf14ddfde
+      assetBundlePath: Builtin:UnityEngine.Font, UnityEngine.TextRenderingModule:Library/unity
+        default resources:LegacyRuntime
+    - object: {fileID: 21300000, guid: dd061fd1241b917428b16f9a4e79d829, type: 3}
+      guid: dd061fd1241b917428b16f9a4e79d829
+      assetBundlePath: Custom:UnityEngine.Sprite, UnityEngine.CoreModule:Assets/Materials/Textures/eggicon.PNG:eggicon
+    - object: {fileID: 8300000, guid: d648e88477e40e745ba674a1ad07f57a, type: 3}
+      guid: d648e88477e40e745ba674a1ad07f57a
+      assetBundlePath: Custom:UnityEngine.AudioClip, UnityEngine.AudioModule:Assets/Sounds/Normal/ItemFall/Wine
+        Glass Shatering 1.mp3:Wine Glass Shatering 1
+    - object: {fileID: 8300000, guid: 83319a41b958a474f95f0e917a212a30, type: 3}
+      guid: 83319a41b958a474f95f0e917a212a30
+      assetBundlePath: Custom:UnityEngine.AudioClip, UnityEngine.AudioModule:Assets/Sounds/Normal/ItemFall/Wine
+        Glass Shatering 2.mp3:Wine Glass Shatering 2
+    - object: {fileID: 8300000, guid: f2f580575fff3a44aa262aa7aea8fdbf, type: 3}
+      guid: f2f580575fff3a44aa262aa7aea8fdbf
+      assetBundlePath: Custom:UnityEngine.AudioClip, UnityEngine.AudioModule:Assets/Sounds/Normal/ItemFall/Wine
+        Glass Shatering 3.mp3:Wine Glass Shatering 3
+    - object: {fileID: 8300000, guid: 00473302361a29a4fb53a929d033a8c7, type: 3}
+      guid: 00473302361a29a4fb53a929d033a8c7
+      assetBundlePath: Custom:UnityEngine.AudioClip, UnityEngine.AudioModule:Assets/Sounds/Normal/Livingroom/Breaking
+        Pot.mp3:Breaking Pot
+    - object: {fileID: 8300000, guid: 42b1bd3a7c7fdf34eb541856f53c5bb9, type: 3}
+      guid: 42b1bd3a7c7fdf34eb541856f53c5bb9
+      assetBundlePath: Custom:UnityEngine.AudioClip, UnityEngine.AudioModule:Assets/Sounds/Pickup
+        object.wav:Pickup object
+    - object: {fileID: 8300000, guid: bd38881bbdee925459d5e11fe90b8873, type: 3}
+      guid: bd38881bbdee925459d5e11fe90b8873
+      assetBundlePath: Custom:UnityEngine.AudioClip, UnityEngine.AudioModule:Assets/Sounds/Whistle
+        Sound Effect!.mp3:Whistle Sound Effect!
+    - object: {fileID: 8300000, guid: 988dc7ea55d7f5442b55378021e86360, type: 3}
+      guid: 988dc7ea55d7f5442b55378021e86360
+      assetBundlePath: Custom:UnityEngine.AudioClip, UnityEngine.AudioModule:Assets/Sounds/microwave-timer-117077.mp3:microwave-timer-117077
+    - object: {fileID: 21300000, guid: 76d96ad8e72e2004d84590162c538dc0, type: 3}
+      guid: 76d96ad8e72e2004d84590162c538dc0
+      assetBundlePath: Custom:UnityEngine.Sprite, UnityEngine.CoreModule:Assets/Materials/Textures/parchment_alpha.png:parchment_alpha
+    - object: {fileID: 3220680263695665919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        Head/Eye Gaze Position
+    - object: {fileID: -5930349909990434036, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        Head/Eye Gaze Rotation
+    - object: {fileID: -831106814531524825, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        Head/Eye Gaze Is Tracked
+    - object: {fileID: 2069149553511882089, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        Head/Eye Gaze Tracking State
+    - object: {fileID: -7374733323251553461, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        LeftHand Locomotion/Snap Turn
+    - object: {fileID: -8525429354371678379, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        RightHand Locomotion/Snap Turn
+    - object: {fileID: 2869410428622933342, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        UI/Point
+    - object: {fileID: 1855836014308820768, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        UI/Click
+    - object: {fileID: -6289560987278519447, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        UI/MiddleClick
+    - object: {fileID: -2562941478296515153, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        UI/RightClick
+    - object: {fileID: 5825226938762934180, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        UI/ScrollWheel
+    - object: {fileID: -7967456002180160679, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        UI/Navigate
+    - object: {fileID: 3994978066732806534, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        UI/Submit
+    - object: {fileID: 2387711382375263438, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        UI/Cancel
+    - object: {fileID: -944628639613478452, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionAsset, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        Default Input Actions
+    - object: {fileID: 7862207684358717888, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        Head/Position
+    - object: {fileID: -530380113134220495, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        Head/Rotation
+    - object: {fileID: 1031966339891076899, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        Head/Tracking State
+    - object: {fileID: -3326005586356538449, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        RightHand/Position
+    - object: {fileID: 5101698808175986029, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        RightHand/Rotation
+    - object: {fileID: -8270564778575511633, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        RightHand Locomotion/Teleport Select
+    - object: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        RightHand Interaction/Activate
+    - object: {fileID: 7904272356298805229, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        RightHand Interaction/Activate Value
+    - object: {fileID: 3279264004350380116, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        RightHand Interaction/UI Press
+    - object: {fileID: -5908353012961274365, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        RightHand Interaction/UI Press Value
+    - object: {fileID: -8222252007134549311, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        RightHand/Haptic Device
+    - object: {fileID: -5913262927076077117, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        RightHand Interaction/Rotate Anchor
+    - object: {fileID: -440298646266941818, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        RightHand Locomotion/Teleport Direction
+    - object: {fileID: 875253871413052681, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        RightHand Interaction/Translate Anchor
+    - object: {fileID: -2024308242397127297, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        LeftHand/Position
+    - object: {fileID: 8248158260566104461, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        LeftHand/Rotation
+    - object: {fileID: -4084014799535200556, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        LeftHand Locomotion/Teleport Select
+    - object: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        LeftHand Interaction/Activate
+    - object: {fileID: -4289430672226363583, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        LeftHand Interaction/Activate Value
+    - object: {fileID: -6395602842196007441, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        LeftHand Interaction/UI Press
+    - object: {fileID: 71106601250685021, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        LeftHand Interaction/UI Press Value
+    - object: {fileID: -8785819595477538065, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        LeftHand/Haptic Device
+    - object: {fileID: -7363382999065477798, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        LeftHand Interaction/Rotate Anchor
+    - object: {fileID: -8811388872089202044, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        LeftHand Locomotion/Teleport Direction
+    - object: {fileID: 7779212132400271959, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        LeftHand Interaction/Translate Anchor
+    - object: {fileID: 1010738217276881514, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        LeftHand Locomotion/Turn
+    - object: {fileID: -6493913391331992944, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        RightHand Locomotion/Turn
+    - object: {fileID: -7044516463258014562, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        RightHand/Is Tracked
+    - object: {fileID: -1277054153949319361, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        RightHand/Tracking State
+    - object: {fileID: 187161793506945269, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        RightHand Interaction/Select
+    - object: {fileID: -1758520528963094988, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        RightHand Interaction/Select Value
+    - object: {fileID: -6756787485274679044, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        RightHand Interaction/UI Scroll
+    - object: {fileID: 840156964685210860, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        LeftHand/Is Tracked
+    - object: {fileID: 684395432459739428, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        LeftHand/Tracking State
+    - object: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        LeftHand Interaction/Select
+    - object: {fileID: 6558622148059887818, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        LeftHand Interaction/Select Value
+    - object: {fileID: 2464016903823916871, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      guid: c348712bda248c246b8c49b3db54643f
+      assetBundlePath: Custom:UnityEngine.InputSystem.InputActionReference, Unity.InputSystem:Assets/Samples/XR
+        Interaction Toolkit/2.4.0/Starter Assets/XRI Default Input Actions.inputactions:XRI
+        LeftHand Interaction/UI Scroll
