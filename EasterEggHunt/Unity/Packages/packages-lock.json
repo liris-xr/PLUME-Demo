@@ -348,7 +348,7 @@
       "url": "https://packages.unity.com"
     },
     "fr.liris.plume.recorder": {
-      "version": "https://www.github.com/liris-xr/PLUME-Recorder.git",
+      "version": "https://www.github.com/liris-xr/PLUME-Recorder.git#develop",
       "depth": 0,
       "source": "git",
       "dependencies": {
@@ -357,7 +357,7 @@
         "com.unity.collections": "2.1.4",
         "com.unity.mathematics": "1.2.6"
       },
-      "hash": "d44f212931a2a64e21e16d8d597acc43f1dc8e27"
+      "hash": "4f25e513288c9afc46fae37e23f4d2a1c1ece0ae"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
