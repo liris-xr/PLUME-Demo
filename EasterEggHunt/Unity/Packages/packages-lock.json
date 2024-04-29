@@ -327,11 +327,11 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.oculus": {
-      "version": "3.2.2",
+      "version": "4.2.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
-        "com.unity.xr.management": "4.2.0"
+        "com.unity.xr.management": "4.4.0"
       },
       "url": "https://packages.unity.com"
     },
@@ -348,7 +348,7 @@
       "url": "https://packages.unity.com"
     },
     "fr.liris.plume.recorder": {
-      "version": "https://www.github.com/liris-xr/PLUME-Recorder.git#v1.2.0-beta",
+      "version": "https://github.com/liris-xr/PLUME-Recorder.git",
       "depth": 0,
       "source": "git",
       "dependencies": {
@@ -358,7 +358,7 @@
         "com.unity.mathematics": "1.2.6",
         "com.unity.test-framework": "1.1.33"
       },
-      "hash": "541bbcc018ecddb94926a56e1e91b6cf79a6ad0b"
+      "hash": "103cf042d05f5b213c31ffc059c3dbfa109fd331"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
